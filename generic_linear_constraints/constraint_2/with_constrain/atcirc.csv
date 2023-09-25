@@ -1,0 +1,4 @@
+Name        ,FROM Bus    ,TO Bus      ,FROM System ,TO System   ,Number      ,# FROM Bus  ,# TO Bus    ,Resistance  ,Reactance   ,Capacity    ,Cap. Emerg. ,Existing    ,Monitored   ,Interconnect
+           1,           1,           1,           1,           1,           0,           0,           0,           0,           0,           0,           0,           2,           2,           2
+C1          ,B1          ,B2          ,S1          ,S1          ,           1,           1,           2, 0.80000E-01, 0.40000    ,  500.00    ,  600.00    ,           1,           1,           0
+C2          ,B2          ,B3          ,S1          ,S1          ,           2,           2,           3, 0.10000E-01, 0.10000    ,  700.00    ,  780.00    ,           1,           1,           0

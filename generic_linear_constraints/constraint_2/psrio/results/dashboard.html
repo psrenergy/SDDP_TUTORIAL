@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="PSR Energy">
+<meta name="generator" content="PSRIO v0.26.0-beta">
+<link rel="icon" href="https://services.psr-inc.com/psrplot/images/icon.png">
+<title>PSR Dashboard</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.2.0/github-markdown-light.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/styles/default.min.css">
+<style>
+.bd-placeholder-img {font-size:1.125rem;text-anchor: middle;-webkit-user-select:none;-moz-user-select:none;user-select:none;}
+@media (min-width: 768px) {.bd-placeholder-img-lg {font-size: 3.5rem;}}
+body{font-size:.875rem; padding-bottom: 100px}
+.navbar-color { background-color: #1D1D1B !important; }
+.lucide{width:16px;height:16px;vertical-align:text-bottom}
+.sidebar{height: calc(100vh - 80px); box-shadow:inset -1px 0 0 rgba(0,0,0,0);overflow-y:auto}
+.sidebar-sticky{position:relative; top:0; height:calc(100vh - 48px); padding-top:.5rem; overflow-x:hidden; overflow-y:auto}
+.sidebar .nav-link{font-weight:500; color:#333}
+.sidebar .nav-link .lucide{margin-right:4px; color:#727272}
+.sidebar .nav-link.active{color:#2470dc}
+.sidebar .nav-link.active .lucide, .sidebar .nav-link:hover .lucide{color:inherit}
+.sidebar .navbar-controller { width: 220px; }
+.sidebar-heading{font-size:.75rem; text-transform:uppercase}
+.sidebar-wrapper {height:calc(100% - 40px);position:fixed;z-index:1;left:0;bottom:0;background-color:#f2f2f2;overflow-x:hidden;border-right: 1px solid #c4c4c4;}
+.sidebar-wrapper .social-footer {position: absolute; width: 100%; height: 40px; bottom:0; background-color: #f2f2f2; border-top: 1px solid #c4c4c4; display: flex; flex-direction: row; align-items: center; }
+.sidebar-wrapper .social-footer .footer-icon {color: black; margin: 0px 15px;}
+.navbar {text-align: center; justify-content: center; height: 40px; position: fixed; width: 100%;}
+.navbar .navbar-brand {float: none; padding-top:.4rem;padding-bottom:.4rem;font-size:1rem;}
+.navbar .navbar-brand .navbar-logo { width: 60px; }
+.navbar .navbar-toggler{ display: none; right: 1rem; border: 0px; color: transparent; }
+.navbar .navbar-toggler:focus, .navbar .navbar-toggler:focus-visible{border:0px; color: transparent;}
+.navbar .form-control{padding:.75rem 1rem;border-width:0;border-radius:0}
+.form-control-dark{color:#fff;background-color:rgba(255,255,255,.1);border-color:rgba(255,255,255,.1)}
+.form-control-dark:focus{border-color:transparent;box-shadow:0 0 0 3px rgba(255,255,255,.25)}
+.highcharts-data-table table { text-align: center; border-collapse: collapse; border-spacing: 0; background: white; min-width: 100%; margin-top: 10px; font-family: sans-serif; font-size: 0.9em; }
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption { border: 1px solid silver; padding: 0.5em; }
+.highcharts-data-table tr:nth-child(even), .highcharts-data-table thead tr { background: #f8f8f8; }
+.highcharts-data-table tr:hover { background: #eff; }
+.highcharts-data-table caption { border-bottom: none; font-size: 1.1em; font-weight: bold; }
+.tab-content > .tab-pane:not(.active) { display: none; }
+.main-content {width: calc(100% - 220px); padding-top: 40px; transition: 0.35s ease; overflow-x: hidden;}
+@media (max-width: 992px) {
+.navbar .navbar-toggler { display: block; right: 1rem; left: auto }
+.sidebar .navbar-controller { width: 100vw } 
+.main-content {width: 100%;} }
+@media (min-width: 993px) {
+.sidebar.collapse { display: block !important; } }
+</style>
+</head>
+<body>
+<header class="navbar navbar-dark sticky-top navbar-color flex-md-nowrap p-0 shadow">
+<button class ="navbar-toggler position-absolute collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3">
+<img src="https://services.psr-inc.com/psrplot/images/logo-white.png" class="navbar-logo" alt="PSR Dashboard"></img>
+</a>
+</header>
+<div class="sidebar-wrapper">
+<nav id="sidebarMenu" class="sidebar collapse">
+<div class="navbar-controller">
+<div class="pb-3 pt-3 overflow-auto">
+<ul class="nav flex-column">
+<li class="nav-item"><a class="nav-link active" data-bs-toggle="pill" data-bs-target="#rsrtEKmqDCyZjEeU" href="#"><span icon-name="bar-chart-2"></span>Resume</a></li>
+<li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#GrPUNkdMBPpWEQtg" href="#"><span icon-name="bar-chart-2"></span>Case without constraints</a></li>
+<li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#usVoJBrzmWzpoWkj" href="#"><span icon-name="bar-chart-2"></span>Case with constraints</a></li>
+<li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#wKbJzwucWljfrimP" href="#"><span icon-name="bar-chart-2"></span>Results</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<footer class="social-footer justify-content-center">
+<a title="LinkedIn" href="https://www.linkedin.com/company/psrenergy" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin footer-icon"></i></a>
+<a title="Facebook" href="https://www.facebook.com/psrenergy" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook footer-icon"></i></a>
+<a title="Twitter" href="https://twitter.com/psrenergy" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter footer-icon"></i></a>
+<a title="Instagram" href="https://www.instagram.com/psrenergy/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram footer-icon"></i></a>
+</footer>
+</div>
+<main id="content" class="col-md-9 ms-sm-auto col-lg-10 px-md-4 main-content">
+<div class="tab-content">
+<div class="tab-pane fade show active" id="rsrtEKmqDCyZjEeU" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col"><h2>Generic linear constraints example 2</h2>
+<p>In this case, a generic linear constraint has been established to ensure that the turbinig is  equal to 20% of the delta volume between stages in Hydro plant H2. The following constraints have been implemented:</p>
+<p>$$ Gvar_i + \alpha_{1,i} = Vfin_i - Vini_i, \forall i \subset H $$<br />
+$$ Turb_i + \alpha_{2,i} &gt;= Gvar_i, \forall i \subset H $$<br />
+Where H is the set of hydro plants, G〖var〗<em>i represents generic variables associated with each hydro unit, Vfin_i is the final volume, Vini_i is the initial volume of each hydro plant, Tub_i represents the turbining of hydro unit i and δ</em>(j,i) is the slack variable for penalty of each constraint.</p>
+</div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="eedDpSZrNAvYmmTA"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="tBDZQsOEmuvnPPps"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="uAcbAzuxMheCtHlE"></div>
+</div></div>
+<div class="tab-pane fade" id="GrPUNkdMBPpWEQtg" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col" id="JoPArMoWzdQYOxyt"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="JbBhAWdYdcpRjBxp"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="HooHpKwqyUhRQzHn"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="bnfUvqnqqLRzjpxi"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="OGVLieXdZuZOsRkR"></div>
+</div></div>
+<div class="tab-pane fade" id="usVoJBrzmWzpoWkj" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col" id="IlEFrAamdIgPNPUU"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="hGxpqNJWjMwaXXMN"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="sNHhLQQRZUdLTFZo"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="tCJtnzxUglsDSMzc"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="nOCKvfAjFrmXOTho"></div>
+</div></div>
+<div class="tab-pane fade" id="wKbJzwucWljfrimP" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col"><h2>Hydro Generation</h2>
+<p>To comply with the established generic constraint, which specifies that turbine discharge should be equal to 20% of the change in volume between stages, the model set the generation from H2 to zero. This was the only viable solution.</p>
+</div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="FcBceyhjUgIXWTBv"></div><div class="col" id="TrEhbBcPXIfBxvFB"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col"><h2>Thermal Generation</h2>
+<p>To offset the loss in hydro generation, it is necessary to increase the generation of thermal plant T2, as depicted in the following chart.</p>
+</div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="MjrmBSZtssHfROEf"></div><div class="col" id="WSjRXJhgUzYuPZWw"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col"><h2>Local marginal price</h2>
+<p>The increase in thermal generation, which is more expensive than hydro generation, also results in an increase in the local marginal price.</p>
+</div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="eOowQCuDHneFNjha"></div><div class="col" id="imuCZFskUiduburI"></div><div class="col" id="swtBREcUyKabFcvk"></div>
+</div></div>
+</div>
+</main>
+<div id="loadingBlocker">Loading</div>
+<style>
+#loadingBlocker {
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+z-index: 9999;
+overflow: hidden;
+text-align: center;
+font-size: 40px;
+font-family: var(--bs-font-sans-serif);
+font-weight: bold;
+color: white;
+line-height: 100%;
+display: flex;
+justify-content: center; /* Align horizontal */
+align-items: center; /* Align vertical */
+}
+</style>
+<script>
+// Alter which tab will be open by default, based on id redirect
+const splitted = window.location.href.split('#');
+let section_id = "";
+if (splitted.length > 1) {
+section_id = splitted[1];
+if (section_id.length > 0) {
+var tabs = document.getElementsByClassName("tab-pane");
+var current_tab = document.getElementsByClassName("tab-pane fade show active")[0];
+for (let i = 0; i < tabs.length; i++) {
+let anchors = tabs[i].getElementsByTagName("a");
+for (let j = 0; j < anchors.length; j++) {
+let tab_anchor = anchors[j];
+if (tab_anchor.id === section_id) {
+current_tab.className = current_tab.className.replace(/(?:^|\s)show(?!\S)/g, '').replace(/(?:^|\s)active(?!\S)/g, '');
+var current_nav = document.querySelectorAll('[href="#' + current_tab.id + '"]')[0];
+if (!current_nav || current_nav.length === 0) {
+current_nav = document.querySelectorAll('[data-bs-target="#' + current_tab.id + '"]')[0];
+}
+current_nav.className = current_nav.className.replace(/(?:^|\s)active(?!\S)/g, '');
+tabs[i].className += " show active";
+var right_nav = document.querySelectorAll('[href="#' + tabs[i].id + '"]')[0];
+if (!right_nav || right_nav.length === 0) {
+right_nav = document.querySelectorAll('[data-bs-target="#' + tabs[i].id + '"]')[0];
+}
+right_nav.className += " active";
+break;
+}
+}
+}
+}
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0/dist/umd/lucide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/highcharts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/highcharts-more.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/data.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/annotations.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/streamgraph.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/heatmap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/histogram-bellcurve.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/no-data-to-display.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/exporting.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/offline-exporting.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/export-data.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@11.1.0/modules/boost.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/languages/accesslog.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/languages/dos.min.js"></script>
+<script src="https://services.psr-inc.com/psrplot/0.11/psrplot.min.js"></script>
+<script>
+lucide.createIcons();
+hljs.highlightAll();
+const TPCClIFk = new PSRPlot("eedDpSZrNAvYmmTA", "Demand", "");
+TPCClIFk.push_layers([{"data":[28.16,28.16,28.16,28.16,28.16,28.16,28.16,28.16,28.16,28.16,28.16,28.16],"domain":"month","name":"S1","pointStart":1451606400000,"type":"column","unique_tag":"S1","yUnit":"MW"}]);
+TPCClIFk.redraw();
+
+const ElJYtiHr = new PSRPlot("tBDZQsOEmuvnPPps", "Hydro capacity", "");
+ElJYtiHr.push_layers([{"data":[10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0],"domain":"month","name":"H1","pointStart":1451606400000,"type":"column","unique_tag":"H1","yUnit":"MW"},{"data":[10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0,10.0],"domain":"month","name":"H2","pointStart":1451606400000,"type":"column","unique_tag":"H2","yUnit":"MW"}]);
+ElJYtiHr.redraw();
+
+const cQaYbNef = new PSRPlot("uAcbAzuxMheCtHlE", "Thermal capacity", "");
+cQaYbNef.push_layers([{"data":[25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0],"domain":"month","name":"T1","pointStart":1451606400000,"type":"column","unique_tag":"T1","yUnit":"MW"},{"data":[15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0,15.0],"domain":"month","name":"T2","pointStart":1451606400000,"type":"column","unique_tag":"T2","yUnit":"MW"}]);
+cQaYbNef.redraw();
+
+const xnxvgZEd = new PSRPlot("JoPArMoWzdQYOxyt", "Hydro generation of case without constraints", "");
+xnxvgZEd.push_layers([{"data":[5.334,4.8,3.6,3.2,2.8,3.2,3.34,2.14,2.26,3.74,2.0,3.34],"domain":"month","name":"H1","pointStart":1451606400000,"type":"column","unique_tag":"H1","yUnit":"MW"},{"data":[3.872,3.899,1.203,0.852,1.253,1.689,1.435,1.913,1.795,0.312,2.052,1.58],"domain":"month","name":"H2","pointStart":1451606400000,"type":"column","unique_tag":"H2","yUnit":"MW"}]);
+xnxvgZEd.redraw();
+
+const yyhNGYcd = new PSRPlot("JbBhAWdYdcpRjBxp", "Thermal generation of case without constraints", "");
+yyhNGYcd.push_layers([{"data":[18.954,19.461,23.357,24.108,24.108,23.272,23.386,24.108,24.106,24.108,24.108,23.241],"domain":"month","name":"T1","pointStart":1451606400000,"type":"column","unique_tag":"T1","yUnit":"MW"},{"data":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"domain":"month","name":"T2","pointStart":1451606400000,"type":"column","unique_tag":"T2","yUnit":"MW"}]);
+yyhNGYcd.redraw();
+
+const rUDMphmE = new PSRPlot("HooHpKwqyUhRQzHn", "Local marginal prince of case without constraints", "");
+rUDMphmE.push_layers([{"data":[192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0],"domain":"month","name":"B1","pointStart":1451606400000,"type":"column","unique_tag":"B1","yUnit":"$/MWh"},{"data":[192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0],"domain":"month","name":"B2","pointStart":1451606400000,"type":"column","unique_tag":"B2","yUnit":"$/MWh"},{"data":[192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0],"domain":"month","name":"B3","pointStart":1451606400000,"type":"column","unique_tag":"B3","yUnit":"$/MWh"}]);
+rUDMphmE.redraw();
+
+const cKOTRwoS = new PSRPlot("bnfUvqnqqLRzjpxi", "Turbinig x delta volume without constraints - H1", "");
+cKOTRwoS.push_layers([{"data":[2.976,2.419,2.009,1.728,1.562,1.728,1.864,1.194,1.22,2.087,1.08,1.864],"domain":"month","name":"Turb","pointStart":1451606400000,"type":"column","unique_tag":"Turb","yUnit":"hm3"}]);
+cKOTRwoS.push_layers([{"data":[-50.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"domain":"month","name":"Delta volume","pointStart":1451606400000,"type":"column","unique_tag":"Delta volume","yUnit":"hm3"}]);
+cKOTRwoS.redraw();
+
+const pOFghfOZ = new PSRPlot("OGVLieXdZuZOsRkR", "Turbinig x delta volume without constraints - H2", "");
+pOFghfOZ.push_layers([{"data":[2.161,1.965,0.671,0.46,0.699,0.912,0.8,1.067,0.969,0.174,1.108,0.881],"domain":"month","name":"Turb","pointStart":1451606400000,"type":"column","unique_tag":"Turb","yUnit":"hm3"}]);
+pOFghfOZ.push_layers([{"data":[-50.0,0.0,0.0,16.519,-4.987,-11.532,0.0,2.559,-2.559,32.654,-13.185,-19.469],"domain":"month","name":"Delta volume","pointStart":1451606400000,"type":"column","unique_tag":"Delta volume","yUnit":"hm3"}]);
+pOFghfOZ.redraw();
+
+const QVlqfXWw = new PSRPlot("IlEFrAamdIgPNPUU", "Hydro generation of case with constraints", "");
+QVlqfXWw.push_layers([{"data":[3.29,3.13,3.563,3.051,2.913,3.826,2.933,3.717,4.053,3.774,1.817,3.594],"domain":"month","name":"H1","pointStart":1451606400000,"type":"column","unique_tag":"H1","yUnit":"MW"},{"data":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"domain":"month","name":"H2","pointStart":1451606400000,"type":"column","unique_tag":"H2","yUnit":"MW"}]);
+QVlqfXWw.redraw();
+
+const KmfXdYYG = new PSRPlot("hGxpqNJWjMwaXXMN", "Thermal generation of case with constraints", "");
+KmfXdYYG.push_layers([{"data":[24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108],"domain":"month","name":"T1","pointStart":1451606400000,"type":"column","unique_tag":"T1","yUnit":"MW"},{"data":[0.762,0.923,0.49,1.001,1.139,0.226,1.12,0.336,0.0,0.278,2.236,0.459],"domain":"month","name":"T2","pointStart":1451606400000,"type":"column","unique_tag":"T2","yUnit":"MW"}]);
+KmfXdYYG.redraw();
+
+const mdcASZsg = new PSRPlot("sNHhLQQRZUdLTFZo", "Local marginal prince of case with constraints", "");
+mdcASZsg.push_layers([{"data":[264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0],"domain":"month","name":"B1","pointStart":1451606400000,"type":"column","unique_tag":"B1","yUnit":"$/MWh"},{"data":[264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0],"domain":"month","name":"B2","pointStart":1451606400000,"type":"column","unique_tag":"B2","yUnit":"$/MWh"},{"data":[264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0],"domain":"month","name":"B3","pointStart":1451606400000,"type":"column","unique_tag":"B3","yUnit":"$/MWh"}]);
+mdcASZsg.redraw();
+
+const OVsoDkjG = new PSRPlot("tCJtnzxUglsDSMzc", "Turbinig x delta volume with constraints - H1", "");
+OVsoDkjG.push_layers([{"data":[1.836,1.577,1.988,1.648,1.626,2.066,1.636,2.074,2.188,2.106,0.981,2.005],"domain":"month","name":"Turb","pointStart":1451606400000,"type":"column","unique_tag":"Turb","yUnit":"hm3"}]);
+OVsoDkjG.push_layers([{"data":[-22.632,20.205,0.496,1.931,-1.518,-8.113,5.457,-21.115,-23.231,-0.458,2.376,-3.399],"domain":"month","name":"Delta volume","pointStart":1451606400000,"type":"column","unique_tag":"Delta volume","yUnit":"hm3"}]);
+OVsoDkjG.redraw();
+
+const HCWMbMxr = new PSRPlot("nOCKvfAjFrmXOTho", "Turbinig x delta volume with constraints - H2", "");
+HCWMbMxr.push_layers([{"data":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"domain":"month","name":"Turb","pointStart":1451606400000,"type":"column","unique_tag":"Turb","yUnit":"hm3"}]);
+HCWMbMxr.push_layers([{"data":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"domain":"month","name":"Delta volume","pointStart":1451606400000,"type":"column","unique_tag":"Delta volume","yUnit":"hm3"}]);
+HCWMbMxr.redraw();
+
+const mHuyfyqg = new PSRPlot("FcBceyhjUgIXWTBv", "H1", "");
+mHuyfyqg.push_layers([{"data":[5.334,4.8,3.6,3.2,2.8,3.2,3.34,2.14,2.26,3.74,2.0,3.34],"domain":"month","name":"without constraints","pointStart":1451606400000,"type":"column","unique_tag":"without constraints","yUnit":"MW"}]);
+mHuyfyqg.push_layers([{"data":[3.29,3.13,3.563,3.051,2.913,3.826,2.933,3.717,4.053,3.774,1.817,3.594],"domain":"month","name":"with constraints","pointStart":1451606400000,"type":"column","unique_tag":"with constraints","yUnit":"MW"}]);
+mHuyfyqg.redraw();
+
+const aJqKCklZ = new PSRPlot("TrEhbBcPXIfBxvFB", "H2", "");
+aJqKCklZ.push_layers([{"data":[3.872,3.899,1.203,0.852,1.253,1.689,1.435,1.913,1.795,0.312,2.052,1.58],"domain":"month","name":"without constraints","pointStart":1451606400000,"type":"column","unique_tag":"without constraints","yUnit":"MW"}]);
+aJqKCklZ.push_layers([{"data":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"domain":"month","name":"with constraints","pointStart":1451606400000,"type":"column","unique_tag":"with constraints","yUnit":"MW"}]);
+aJqKCklZ.redraw();
+
+const nayXqKQo = new PSRPlot("MjrmBSZtssHfROEf", "T1", "");
+nayXqKQo.push_layers([{"data":[18.954,19.461,23.357,24.108,24.108,23.272,23.386,24.108,24.106,24.108,24.108,23.241],"domain":"month","name":"without constraints","pointStart":1451606400000,"type":"column","unique_tag":"without constraints","yUnit":"MW"}]);
+nayXqKQo.push_layers([{"data":[24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108,24.108],"domain":"month","name":"with constraints","pointStart":1451606400000,"type":"column","unique_tag":"with constraints","yUnit":"MW"}]);
+nayXqKQo.redraw();
+
+const yzwMyUbz = new PSRPlot("WSjRXJhgUzYuPZWw", "T2", "");
+yzwMyUbz.push_layers([{"data":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"domain":"month","name":"without constraints","pointStart":1451606400000,"type":"column","unique_tag":"without constraints","yUnit":"MW"}]);
+yzwMyUbz.push_layers([{"data":[0.762,0.923,0.49,1.001,1.139,0.226,1.12,0.336,0.0,0.278,2.236,0.459],"domain":"month","name":"with constraints","pointStart":1451606400000,"type":"column","unique_tag":"with constraints","yUnit":"MW"}]);
+yzwMyUbz.redraw();
+
+const azcpKhkT = new PSRPlot("eOowQCuDHneFNjha", "B1", "");
+azcpKhkT.push_layers([{"data":[192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0],"domain":"month","name":"without constraints","pointStart":1451606400000,"type":"column","unique_tag":"without constraints","yUnit":"$/MWh"}]);
+azcpKhkT.push_layers([{"data":[264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0],"domain":"month","name":"with constraints","pointStart":1451606400000,"type":"column","unique_tag":"with constraints","yUnit":"$/MWh"}]);
+azcpKhkT.redraw();
+
+const kydZiVcU = new PSRPlot("imuCZFskUiduburI", "B2", "");
+kydZiVcU.push_layers([{"data":[192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0],"domain":"month","name":"without constraints","pointStart":1451606400000,"type":"column","unique_tag":"without constraints","yUnit":"$/MWh"}]);
+kydZiVcU.push_layers([{"data":[264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0],"domain":"month","name":"with constraints","pointStart":1451606400000,"type":"column","unique_tag":"with constraints","yUnit":"$/MWh"}]);
+kydZiVcU.redraw();
+
+const YPurfMBi = new PSRPlot("swtBREcUyKabFcvk", "B3", "");
+YPurfMBi.push_layers([{"data":[192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0,192.0],"domain":"month","name":"without constraints","pointStart":1451606400000,"type":"column","unique_tag":"without constraints","yUnit":"$/MWh"}]);
+YPurfMBi.push_layers([{"data":[264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0,264.0],"domain":"month","name":"with constraints","pointStart":1451606400000,"type":"column","unique_tag":"with constraints","yUnit":"$/MWh"}]);
+YPurfMBi.redraw();
+
+// remove loading overlay
+document.getElementById("loadingBlocker").style.display = 'none';
+</script>
+<script>
+// move user to the correct position in screen
+if (section_id.length > 0) {
+window.location.href = window.location.href;
+}
+</script>
+</body>
+</html>

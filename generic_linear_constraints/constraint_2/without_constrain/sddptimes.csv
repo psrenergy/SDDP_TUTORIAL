@@ -1,0 +1,5 @@
+Varies per block?       ,    0,Unit    ,sec    ,     0,     1,  2016
+Varies per sequence?    ,    0
+# of agents             ,    3
+Stag,Seq.,Blck,Sim. time   ,Post process,Total time  
+   1,   1,   1, 0.13000    , 0.71000    ,  1.7900    

@@ -1,0 +1,8 @@
+Execution Time (m)
+ 
+Phase, Time
+Initilization of states,.0003333
+Forward,.0011667
+Backward,0.001
+Simulation,.0051667
+Total,.0306667

@@ -1,0 +1,4 @@
+Name        ,System      ,Fuel        ,Number      ,# Units     ,Capacity    ,Min. Gener. ,Existing    ,Must-Run    ,Commitment  ,Emits CO2   ,Alt. fuel   
+           1,           1,           1,           0,           0,           0,           0,           2,           2,           2,           2,           2
+T1          ,S1          ,Fuel1       ,           1,           1,  25.000    ,  0.0000    ,           1,           0,           0,           0,           0
+T2          ,S1          ,Fuel2       ,           2,           1,  15.000    ,  0.0000    ,           1,           0,           0,           0,           0

@@ -1,0 +1,5 @@
+Varies per block?       ,    0,Unit    ,       ,     0,     1,  2016
+Varies per sequence?    ,    0
+# of agents             ,   11
+Stag,Seq.,Blck,Zinf        ,Zsup-Tol    ,Zsup        ,Zsup+Tol    ,Optimality  ,Feasibility ,Forw. time  ,Back. time  ,ZsupFCF-Tol ,ZsupFCF     ,ZsupFCF+Tol 
+   1,   1,   1,  1856.0    ,  1856.0    ,  1856.0    ,  1856.0    ,  11.000    ,  0.0000    , 0.30000E-01, 0.20000E-01,  1856.0    ,  1856.0    ,  1856.0    

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="PSR Energy">
+<meta name="generator" content="PSRIO v0.25.0">
+<link rel="icon" href="https://www.psr-inc.com/wp-content/themes/psrNew/favicon.png">
+<title>PSR Dashboard</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.min.css"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.2.0/github-markdown-light.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/styles/default.min.css">
+<style>
+.bd-placeholder-img {font-size:1.125rem;text-anchor: middle;-webkit-user-select:none;-moz-user-select:none;user-select:none;}
+@media (min-width: 768px) {.bd-placeholder-img-lg {font-size: 3.5rem;}}
+body{font-size:.875rem; padding-bottom: 100px}
+.lucide{width:16px;height:16px;vertical-align:text-bottom}
+.sidebar{height: calc(100vh - 80px); box-shadow:inset -1px 0 0 rgba(0,0,0,0);overflow-y:auto}
+.sidebar-sticky{position:relative; top:0; height:calc(100vh - 48px); padding-top:.5rem; overflow-x:hidden; overflow-y:auto}
+.sidebar .nav-link{font-weight:500; color:#333}
+.sidebar .nav-link .lucide{margin-right:4px; color:#727272}
+.sidebar .nav-link.active{color:#2470dc}
+.sidebar .nav-link.active .lucide, .sidebar .nav-link:hover .lucide{color:inherit}
+.sidebar .navbar-controller { width: 220px; }
+.sidebar-heading{font-size:.75rem; text-transform:uppercase}
+.sidebar-wrapper {height:calc(100% - 40px);position:fixed;z-index:1;left:0;bottom:0;background-color:#f2f2f2;overflow-x:hidden;border-right: 1px solid #c4c4c4;}
+.sidebar-wrapper .social-footer {position: absolute; width: 100%; height: 40px; bottom:0; background-color: #f2f2f2; border-top: 1px solid #c4c4c4; display: flex; flex-direction: row; align-items: center; }
+.sidebar-wrapper .social-footer .footer-icon {color: black; margin: 0px 15px;}
+.navbar {text-align: center; justify-content: center; height: 40px; position: fixed; width: 100%;}
+.navbar .navbar-brand {float: none; padding-top:.4rem;padding-bottom:.4rem;font-size:1rem;}
+.navbar .navbar-brand .navbar-logo { width: 60px; }
+.navbar .navbar-toggler{ display: none; right: 1rem; border: 0px; color: transparent; }
+.navbar .navbar-toggler:focus, .navbar .navbar-toggler:focus-visible{border:0px; color: transparent;}
+.navbar .form-control{padding:.75rem 1rem;border-width:0;border-radius:0}
+.form-control-dark{color:#fff;background-color:rgba(255,255,255,.1);border-color:rgba(255,255,255,.1)}
+.form-control-dark:focus{border-color:transparent;box-shadow:0 0 0 3px rgba(255,255,255,.25)}
+.highcharts-data-table table { text-align: center; border-collapse: collapse; border-spacing: 0; background: white; min-width: 100%; margin-top: 10px; font-family: sans-serif; font-size: 0.9em; }
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption { border: 1px solid silver; padding: 0.5em; }
+.highcharts-data-table tr:nth-child(even), .highcharts-data-table thead tr { background: #f8f8f8; }
+.highcharts-data-table tr:hover { background: #eff; }
+.highcharts-data-table caption { border-bottom: none; font-size: 1.1em; font-weight: bold; }
+.tab-content > .tab-pane:not(.active) { display: none; }
+.main-content {width: calc(100% - 220px); padding-top: 40px; transition: 0.35s ease; overflow-x: hidden;}
+@media (max-width: 992px) {
+.navbar .navbar-toggler { display: block; right: 1rem; left: auto }
+.sidebar .navbar-controller { width: 100vw } 
+.main-content {width: 100%;} }
+@media (min-width: 993px) {
+.sidebar.collapse { display: block !important; } }
+</style>
+</head>
+<body>
+<header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+<button class ="navbar-toggler position-absolute collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<a class="navbar-brand col-md-3 col-lg-2 me-0 px-3">
+<img src="https://services.psr-inc.com/psrplot/images/logo-white.png" class="navbar-logo" alt="PSR Dashboard"></img>
+</a>
+</header>
+<div class="sidebar-wrapper">
+<nav id="sidebarMenu" class="sidebar collapse">
+<div class="navbar-controller">
+<div class="pb-3 pt-3 overflow-auto">
+<ul class="nav flex-column">
+<div class="row g-0">
+<div class="col-auto">
+<li class="nav-item px-0"><a class="nav-link collapsed" href="#HHRJvBJtsqDJoOtG" data-bs-toggle="collapse" aria-expanded="true" role="button"><span icon-name="alert-triangle"></span>Solution quality</a></li>
+</div>
+<div class="col-auto">
+<a class="nav-link collapsed px-0" href="#HHRJvBJtsqDJoOtG" data-bs-toggle="collapse" aria-expanded="true" role="button">▾</a>
+</div>
+</div>
+<div class="collapse show ps-2" id="HHRJvBJtsqDJoOtG" data-bs-parent="#sidebar"><li class="nav-item"><a class="nav-link active" data-bs-toggle="pill" data-bs-target="#tCJtnzxUglsDSMzc" href="#"><span icon-name="bar-chart-2"></span>Policy</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#MjrmBSZtssHfROEf" href="#"><span icon-name="bar-chart-2"></span>Simulation</a></li></div>
+<div class="row g-0">
+<div class="col-auto">
+<li class="nav-item px-0"><a class="nav-link collapsed" href="#xNVjiuPalYYnMkmn" data-bs-toggle="collapse" aria-expanded="true" role="button"><span icon-name="line-chart"></span>Results</a></li>
+</div>
+<div class="col-auto">
+<a class="nav-link collapsed px-0" href="#xNVjiuPalYYnMkmn" data-bs-toggle="collapse" aria-expanded="true" role="button">▾</a>
+</div>
+</div>
+<div class="collapse hide ps-2" id="xNVjiuPalYYnMkmn" data-bs-parent="#sidebar"><li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#DZeZtoidukuHjZef" href="#"><span icon-name="bar-chart-2"></span>Costs & revenues</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#LPaXAMCeROsWITDp" href="#"><span icon-name="bar-chart-2"></span>Marginal costs</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#yyhNGYcdrUDMphmE" href="#"><span icon-name="bar-chart-2"></span>Generation</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#yzwMyUbzazcpKhkT" href="#"><span icon-name="bar-chart-2"></span>Deficit risk</a></li><li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#SGeKYRGzvXdHPoam" href="#"><span icon-name="bar-chart-2"></span>Inflow energy</a></li></div>
+<li class="nav-item"><a class="nav-link" data-bs-toggle="pill" data-bs-target="#heRsigbhzJZUJXMm" href="#"><span icon-name="info"></span>Info</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<footer class="social-footer justify-content-center">
+<a title="LinkedIn" href="https://www.linkedin.com/company/psrenergy" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin footer-icon"></i></a>
+<a title="Facebook" href="https://www.facebook.com/psrenergy" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook footer-icon"></i></a>
+<a title="Twitter" href="https://twitter.com/psrenergy" target="_blank" rel="noopener noreferrer"><i class="bi bi-twitter footer-icon"></i></a>
+<a title="Instagram" href="https://www.instagram.com/psrenergy/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram footer-icon"></i></a>
+</footer>
+</div>
+<main id="content" class="col-md-9 ms-sm-auto col-lg-10 px-md-4 main-content">
+<div class="tab-content">
+<div class="tab-pane fade" id="sNHhLQQRZUdLTFZo" role="tabpanel">
+</div>
+<div class="tab-pane fade show active" id="tCJtnzxUglsDSMzc" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<h2>System: S1           | Horizon: 01/2016-12/2016</h2>
+
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="wKbJzwucWljfrimP"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<p><strong>Additional years were not considered in the simulation</strong><br />
+Final simulation (IC + FCF): sum of final simulation immediate costs up to the last stage plus the future cost function for additional years<br />
+Zsup (IC + FCF): sum of policy immediate costs up to the last stage plus the future cost function for additional years<br />
+Zsup (IC): sum of policy immediate costs for the whole horizon including additional years</p>
+
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="FcBceyhjUgIXWTBv"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="TrEhbBcPXIfBxvFB"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="cGkcFqCkCOtzGkUb"></div>
+</div></div>
+<div class="tab-pane fade" id="MjrmBSZtssHfROEf" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col" id="WSjRXJhgUzYuPZWw"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="EIquRpIxiQfldUUV"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="eOowQCuDHneFNjha"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="imuCZFskUiduburI"></div>
+</div></div>
+<div class="tab-pane fade" id="swtBREcUyKabFcvk" role="tabpanel">
+</div>
+<div class="tab-pane fade" id="DZeZtoidukuHjZef" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col" id="czzzBFkQdpqZiKFO"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="BucdHtHxdJGkjElr"></div>
+</div></div>
+<div class="tab-pane fade" id="LPaXAMCeROsWITDp" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col" id="TPCClIFkElJYtiHr"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="cQaYbNefxnxvgZEd"></div>
+</div></div>
+<div class="tab-pane fade" id="yyhNGYcdrUDMphmE" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col" id="cKOTRwoSpOFghfOZ"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<h2>Total generation per system - S1</h2>
+
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="mdcASZsgOVsoDkjG"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="HCWMbMxrmHuyfyqg"></div>
+</div><div class="row markdown-body pt-3 pb-3">
+<div class="col" id="aJqKCklZnayXqKQo"></div>
+</div></div>
+<div class="tab-pane fade" id="yzwMyUbzazcpKhkT" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col" id="kydZiVcUYPurfMBi"></div>
+</div></div>
+<div class="tab-pane fade" id="SGeKYRGzvXdHPoam" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<div class="col" id="VAFyRARxSvKhtqdI"></div>
+</div></div>
+<div class="tab-pane fade" id="heRsigbhzJZUJXMm" role="tabpanel">
+<div class="row markdown-body pt-3 pb-3">
+<h1>Case summary</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: center">Directory Name</th>
+<th style="text-align: center">Path</th>
+<th style="text-align: center">Execution status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center">without_constrain</td>
+<td style="text-align: center">D:\SDDP_TUTORIAL\generic_linear_constraints\constraint_2\without_constrain</td>
+<td style="text-align: center">SUCCESS</td>
+</tr>
+</tbody>
+</table>
+<h2>About the model</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center">Model</th>
+<th style="text-align: center">User</th>
+<th style="text-align: center">Version</th>
+<th style="text-align: center">ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center">SDDP</td>
+<td style="text-align: center">PSR - Iury (ANKARA)</td>
+<td style="text-align: center">17.3Beta55</td>
+<td style="text-align: center">1adc82100-win64-intel21-release</td>
+</tr>
+</tbody>
+</table>
+<h2>Case title</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center">Title</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center">SDDP</td>
+</tr>
+</tbody>
+</table>
+<h2>Horizon, resolution and execution options</h2>
+<table>
+<thead>
+<tr>
+<th>Case parameter</th>
+<th>without_constrain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Execution type</td>
+<td>Policy</td>
+</tr>
+<tr>
+<td>Case type</td>
+<td>Monthly</td>
+</tr>
+<tr>
+<td>Stages</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Initial year of study</td>
+<td>2016</td>
+</tr>
+<tr>
+<td>Blocks</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Forward series</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Backward series</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Hourly representation</td>
+<td>no</td>
+</tr>
+<tr>
+<td>Network representation</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Typical days representation</td>
+<td>no</td>
+</tr>
+</tbody>
+</table>
+<h2>Dimensions</h2>
+<table>
+<thead>
+<tr>
+<th>Case parameter</th>
+<th>without_constrain</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Systems</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Hydro plants</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Thermal plants</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Renewable plants - Wind</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Renewable plants - Solar</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Renewable plants - Small hydro</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Renewable plants - Other tech.</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Batteries</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Power injections</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Interconnections</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+
+</div></div>
+</div>
+</main>
+<div id="loadingBlocker">Loading</div>
+<style>
+#loadingBlocker {
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+z-index: 9999;
+overflow: hidden;
+text-align: center;
+font-size: 40px;
+font-family: var(--bs-font-sans-serif);
+font-weight: bold;
+color: white;
+line-height: 100%;
+display: flex;
+justify-content: center; /* Align horizontal */
+align-items: center; /* Align vertical */
+}
+</style>
+<script>
+// Alter which tab will be open by default, based on id redirect
+const splitted = window.location.href.split('#');
+let section_id = "";
+if (splitted.length > 1) {
+section_id = splitted[1];
+if (section_id.length > 0) {
+var tabs = document.getElementsByClassName("tab-pane");
+var current_tab = document.getElementsByClassName("tab-pane fade show active")[0];
+for (let i = 0; i < tabs.length; i++) {
+let anchors = tabs[i].getElementsByTagName("a");
+for (let j = 0; j < anchors.length; j++) {
+let tab_anchor = anchors[j];
+if (tab_anchor.id === section_id) {
+current_tab.className = current_tab.className.replace(/(?:^|\s)show(?!\S)/g, '').replace(/(?:^|\s)active(?!\S)/g, '');
+var current_nav = document.querySelectorAll('[href="#' + current_tab.id + '"]')[0];
+if (!current_nav || current_nav.length === 0) {
+current_nav = document.querySelectorAll('[data-bs-target="#' + current_tab.id + '"]')[0];
+}
+current_nav.className = current_nav.className.replace(/(?:^|\s)active(?!\S)/g, '');
+tabs[i].className += " show active";
+var right_nav = document.querySelectorAll('[href="#' + tabs[i].id + '"]')[0];
+if (!right_nav || right_nav.length === 0) {
+right_nav = document.querySelectorAll('[data-bs-target="#' + tabs[i].id + '"]')[0];
+}
+right_nav.className += " active";
+break;
+}
+}
+}
+}
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0/dist/umd/lucide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/highcharts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/highcharts-more.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/data.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/annotations.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/streamgraph.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/heatmap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/histogram-bellcurve.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/no-data-to-display.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/exporting.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/offline-exporting.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/export-data.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/highcharts@10.1.0/modules/boost.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.8.0/build/highlight.min.js"></script>
+<script src="https://services.psr-inc.com/psrplot/0.10/psrplot.min.js"></script>
+<script>
+lucide.createIcons();
+hljs.highlightAll();
+Highcharts.setOptions({ colors: [ "#4E79A7","#F28E2B","#8CD17D","#B6992D","#E15759","#76B7B2","#FF9DA7","#D7B5A6","#B07AA1","#59A14F","#F1CE63","#A0CBE8","#E15759" ]});
+
+const rHtneGyi = new PSRPlot("wKbJzwucWljfrimP", "Convergence", "");
+rHtneGyi.push_layers([{"colors":["#3CB7CC"],"data":[[1,1577.9],[2,1615.1],[3,1615.1]],"domain":"linear","name":"Zinf","pointStart":1,"type":"line","unique_tag":"Zinf","xAllowDecimals":false,"xUnit":"Iteration","yUnit":""}]);
+rHtneGyi.push_layers([{"colors":["#32A251"],"data":[[1,1615.1],[2,1616.9],[3,1615.1]],"domain":"linear","name":"Zsup (IC)","pointStart":1,"type":"line","unique_tag":"Zsup (IC)","visible":false,"xAllowDecimals":false,"yUnit":""}]);
+rHtneGyi.push_layers([{"colors":["#ACD98D","#ACD98D"],"data":[[1,1615.1,1615.1],[2,1616.9,1616.9],[3,1615.1,1615.1]],"domain":"linear","name":"Zsup (IC) +- Tol","pointStart":1,"type":"area_range","unique_tag":"","visible":false,"xAllowDecimals":false,"xUnit":"Iteration","yUnit":""}]);
+rHtneGyi.push_layers([{"colors":["#FF9DA7"],"data":[[1,1615.1],[2,1616.9],[3,1615.1]],"domain":"linear","name":"Zsup (IC+FCF)","pointStart":1,"type":"line","unique_tag":"Zsup (IC+FCF)","xAllowDecimals":false,"yUnit":""}]);
+rHtneGyi.push_layers([{"colors":["#FFD8DC","#FFD8DC"],"data":[[1,1615.1,1615.1],[2,1616.9,1616.9],[3,1615.1,1615.1]],"domain":"linear","name":"Zsup (IC+FCF) +- Tol","pointStart":1,"showInLegend":true,"type":"area_range","unique_tag":"","xAllowDecimals":false,"xUnit":"Iteration","yUnit":""}]);
+rHtneGyi.push_layers([{"colors":["#D37295"],"data":[[1,1615.1],[2,1615.1],[3,1615.1]],"domain":"linear","name":"Final simulation (IC+FCF)","pointStart":1,"type":"line","unique_tag":"Final simulation (IC+FCF)","xAllowDecimals":false,"yUnit":""}]);
+rHtneGyi.redraw();
+
+const WXGcjWlg = new PSRPlot("FcBceyhjUgIXWTBv", "New cuts per iteration", "");
+WXGcjWlg.push_layers([{"data":[[1,11.0],[2,11.0],[3,6.0]],"domain":"linear","name":"Optimality","pointStart":1,"type":"column","unique_tag":"Optimality","xAllowDecimals":false,"xUnit":"Iteration","yUnit":""}]);
+WXGcjWlg.redraw();
+
+const rSmeAEaR = new PSRPlot("TrEhbBcPXIfBxvFB", "Forward and backward execution times", "");
+rSmeAEaR.push_layers([{"data":[[1,0.02],[2,0.02],[3,0.02]],"domain":"linear","name":"Forward","pointStart":1,"type":"line","unique_tag":"Forward","xAllowDecimals":false,"xUnit":"Iteration","yUnit":""},{"data":[[1,0.03],[2,0.02],[3,0.02]],"domain":"linear","name":"Backward","pointStart":1,"type":"line","unique_tag":"Backward","xAllowDecimals":false,"xUnit":"Iteration","yUnit":""}]);
+rSmeAEaR.redraw();
+
+const WTvJSJBa = new PSRPlot("cGkcFqCkCOtzGkUb", "Convergence map", "");
+WTvJSJBa.push_layers([{"data":[[1451606400000,1,0.0],[1454284800000,1,0.0],[1456790400000,1,0.0],[1459468800000,1,0.0],[1462060800000,1,0.0],[1464739200000,1,0.0],[1467331200000,1,0.0],[1470009600000,1,1.0],[1472688000000,1,1.0],[1475280000000,1,1.0],[1477958400000,1,1.0],[1480550400000,1,1.0]],"dataClasses":[{"color":"#C64B3E","name":"not converged","to":0.0},{"color":"#4E79A7","from":1.0,"name":"converged","to":2.0},{"color":"#FBEEB3","from":2.0,"name":"warning"}],"domain":"month","name":"Status (scenario: 1)","pointStart":1451606400000,"showInLegend":false,"stopsMax":2.0,"stopsMin":0.0,"type":"heatmap","unique_tag":"Status","xLabel":"Stage","yLabel":"Iteration","yUnit":""},{"data":[[1451606400000,2,0.0],[1454284800000,2,0.0],[1456790400000,2,0.0],[1459468800000,2,0.0],[1462060800000,2,0.0],[1464739200000,2,0.0],[1467331200000,2,0.0],[1470009600000,2,1.0],[1472688000000,2,1.0],[1475280000000,2,1.0],[1477958400000,2,1.0],[1480550400000,2,1.0]],"dataClasses":[{"color":"#C64B3E","name":"not converged","to":0.0},{"color":"#4E79A7","from":1.0,"name":"converged","to":2.0},{"color":"#FBEEB3","from":2.0,"name":"warning"}],"domain":"month","name":"Status (scenario: 2)","pointStart":1451606400000,"showInLegend":false,"stopsMax":2.0,"stopsMin":0.0,"type":"heatmap","unique_tag":"Status","xLabel":"Stage","yLabel":"Iteration","yUnit":""},{"data":[[1451606400000,3,0.0],[1454284800000,3,0.0],[1456790400000,3,0.0],[1459468800000,3,1.0],[1462060800000,3,0.0],[1464739200000,3,0.0],[1467331200000,3,1.0],[1470009600000,3,1.0],[1472688000000,3,1.0],[1475280000000,3,1.0],[1477958400000,3,1.0],[1480550400000,3,1.0]],"dataClasses":[{"color":"#C64B3E","name":"not converged","to":0.0},{"color":"#4E79A7","from":1.0,"name":"converged","to":2.0},{"color":"#FBEEB3","from":2.0,"name":"warning"}],"domain":"month","name":"Status (scenario: 3)","pointStart":1451606400000,"showInLegend":false,"stopsMax":2.0,"stopsMin":0.0,"type":"heatmap","unique_tag":"Status","xLabel":"Stage","yLabel":"Iteration","yUnit":""}]);
+WTvJSJBa.redraw();
+
+const OiOJLwHy = new PSRPlot("WSjRXJhgUzYuPZWw", "Breakdown of total operating costs", "");
+OiOJLwHy.push_layers([{"data":[1615.06],"domain":"month","name":"Cost: Total operating","pointStart":1451606400000,"type":"pie","unique_tag":"Cost: Total operating","yUnit":"k$"}]);
+OiOJLwHy.redraw();
+
+const pnVruiho = new PSRPlot("EIquRpIxiQfldUUV", "Execution times", "");
+pnVruiho.push_layers([{"data":[[1,0.11]],"domain":"linear","name":"Sim. time","pointStart":1,"type":"column","unique_tag":"Sim. time","yUnit":"s"},{"data":[[1,0.71]],"domain":"linear","name":"Post process","pointStart":1,"type":"column","unique_tag":"Post process","yUnit":"s"},{"data":[[1,1.34]],"domain":"linear","name":"Total time","pointStart":1,"type":"column","unique_tag":"Total time","yUnit":"s"}]);
+pnVruiho.redraw();
+
+const SwkIFYGT = new PSRPlot("eOowQCuDHneFNjha", "Dispersion of execution times per scenario", "");
+SwkIFYGT.push_layers([{"colors":["#EA6B73","#EA6B73"],"data":[[0.0,0.0],[0.0,0.0],[0.0,0.0],[0.0,0.0],[0.0,0.0],[0.0,0.0],[0.0,0.0],[0.0,0.0],[0.0,0.0],[10.0,10.0],[20.0,20.0],[0.0,0.0]],"domain":"month","name":"P10-P90","pointStart":1451606400000,"type":"area_range","unique_tag":"P10","xUnit":"Stage","yUnit":"ms"}]);
+SwkIFYGT.push_layers([{"colors":["#F02720"],"data":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,20.0,0.0],"domain":"month","name":"Average","pointStart":1451606400000,"type":"line","unique_tag":"Average","xUnit":"Stage","yUnit":"ms"}]);
+SwkIFYGT.redraw();
+
+const yDhACwYh = new PSRPlot("imuCZFskUiduburI", "Share of violation penalties and deficit in the cost of each stage/scenario (%)", "");
+yDhACwYh.push_layers([{"data":[[1451606400000,1,0.0]],"domain":"month","name":"Percentage","pointStart":1451606400000,"showInLegend":false,"stops":[[0.0,"#4E79A7"],[0.5,"#FBEEB3"],[1.0,"#C64B3E"]],"stopsMax":100.0,"stopsMin":0.0,"type":"heatmap_series","unique_tag":"Percentage","xLabel":"Stage","yLabel":"Scenario","yUnit":""}]);
+yDhACwYh.redraw();
+
+const sGEwzMTg = new PSRPlot("czzzBFkQdpqZiKFO", "Average operating costs per stage", "");
+sGEwzMTg.push_layers([{"data":[112.82,104.62,139.02,138.86,143.49,134.04,139.19,143.49,138.85,143.49,138.86,138.33],"domain":"month","name":"Cost: Total operating","pointStart":1451606400000,"type":"column_stacking","unique_tag":"Cost: Total operating","xUnit":"Stage","yUnit":"k$"}]);
+sGEwzMTg.redraw();
+
+const oNzlTJhg = new PSRPlot("BucdHtHxdJGkjElr", "Dispersion of operating costs per stage", "");
+oNzlTJhg.push_layers([{"colors":["#EA6B73","#EA6B73"],"data":[[112.82,112.82],[104.62,104.62],[139.02,139.02],[138.86,138.86],[143.49,143.49],[134.04,134.04],[139.19,139.19],[143.49,143.49],[138.85,138.85],[143.49,143.49],[138.86,138.86],[138.33,138.33]],"domain":"month","name":"P10-P90","pointStart":1451606400000,"type":"area_range","unique_tag":"P10","xUnit":"Stage","yUnit":"k$"}]);
+oNzlTJhg.push_layers([{"colors":["#F02720"],"data":[112.82,104.62,139.02,138.86,143.49,134.04,139.19,143.49,138.85,143.49,138.86,138.33],"domain":"month","name":"Average","pointStart":1451606400000,"type":"line","unique_tag":"Average","xUnit":"Stage","yUnit":"k$"}]);
+oNzlTJhg.redraw();
+
+const AUHnihrE = new PSRPlot("TPCClIFkElJYtiHr", "Annual marginal cost by system", "");
+AUHnihrE.push_layers([{"data":[8.0],"domain":"year","name":"S1","pointStart":1451606400000,"type":"column","unique_tag":"S1","xUnit":"Year","yUnit":"$/MWh"}]);
+AUHnihrE.redraw();
+
+const qGJfwKjs = new PSRPlot("cQaYbNefxnxvgZEd", "Average marginal costs per stage per system", "");
+qGJfwKjs.push_layers([{"data":[8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0],"domain":"month","name":"S1","pointStart":1451606400000,"type":"column","unique_tag":"S1","xUnit":"Stage","yUnit":"$/MWh"}]);
+qGJfwKjs.redraw();
+
+const MTPJHaEF = new PSRPlot("cKOTRwoSpOFghfOZ", "Total generation", "");
+MTPJHaEF.push_layers([{"colors":["#F28E2B"],"data":[14.102,13.078,17.378,17.358,17.936,16.756,17.399,17.936,17.356,17.936,17.358,17.291],"domain":"month","name":"Total Thermal","pointStart":1451606400000,"type":"area_stacking","unique_tag":"Total Thermal","xUnit":"Stage","yUnit":"GWh"}]);
+MTPJHaEF.push_layers([{"colors":["#4E79A7"],"data":[6.849,5.846,3.574,2.918,3.015,3.52,3.552,3.015,2.919,3.015,2.918,3.66],"domain":"month","name":"Total Hydro","pointStart":1451606400000,"type":"area_stacking","unique_tag":"Total Hydro","xUnit":"Stage","yUnit":"GWh"}]);
+MTPJHaEF.push_layers([{"colors":["#000000"],"data":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"domain":"month","name":"Total Deficit","pointStart":1451606400000,"type":"area_stacking","unique_tag":"Total Deficit","xUnit":"Stage","yUnit":"GWh"}]);
+MTPJHaEF.redraw();
+
+const QzAaUldR = new PSRPlot("mdcASZsgOVsoDkjG", "Total Hydro", "");
+QzAaUldR.push_layers([{"data":[6.849,5.846,3.574,2.918,3.015,3.52,3.552,3.015,2.919,3.015,2.918,3.66],"domain":"month","name":"Total Hydro","pointStart":1451606400000,"type":"column","unique_tag":"Total Hydro","xUnit":"Stage","yUnit":"GWh"}]);
+QzAaUldR.redraw();
+
+const chjcCdyr = new PSRPlot("HCWMbMxrmHuyfyqg", "Total Thermal", "");
+chjcCdyr.push_layers([{"data":[14.102,13.078,17.378,17.358,17.936,16.756,17.399,17.936,17.356,17.936,17.358,17.291],"domain":"month","name":"Total Thermal","pointStart":1451606400000,"type":"column","unique_tag":"Total Thermal","xUnit":"Stage","yUnit":"GWh"}]);
+chjcCdyr.redraw();
+
+const fVVRIVuY = new PSRPlot("aJqKCklZnayXqKQo", "Total Deficit", "");
+fVVRIVuY.push_layers([{"data":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"domain":"month","name":"Total Deficit","pointStart":1451606400000,"type":"column","unique_tag":"Total Deficit","xUnit":"Stage","yUnit":"GWh"}]);
+fVVRIVuY.redraw();
+
+const eeGfiVDR = new PSRPlot("kydZiVcUYPurfMBi", "Deficit risk by system", "");
+eeGfiVDR.push_layers([{"data":[0.0],"domain":"year","name":"S1","pointStart":1451606400000,"type":"column","unique_tag":"S1","yUnit":"%"}]);
+eeGfiVDR.redraw();
+
+const cYgUrQdr = new PSRPlot("VAFyRARxSvKhtqdI", "Total inflow energy", "");
+cYgUrQdr.push_layers([{"colors":["#B7C9DD","#B7C9DD"],"data":[[1.294,1.294],[5.846,5.846],[3.573,3.573],[3.836,3.836],[2.738,2.738],[2.879,2.879],[3.552,3.552],[3.157,3.157],[2.777,2.777],[4.829,4.829],[2.185,2.185],[2.579,2.579]],"domain":"month","name":"P10-P90","pointStart":1451606400000,"type":"area_range","unique_tag":"P10","xUnit":"Stage","yUnit":"GWh"}]);
+cYgUrQdr.push_layers([{"data":[1.294,5.846,3.573,3.836,2.738,2.879,3.552,3.157,2.777,4.829,2.185,2.579],"domain":"month","name":"Average","pointStart":1451606400000,"type":"line","unique_tag":"Average","yUnit":"GWh"}]);
+cYgUrQdr.redraw();
+
+// remove loading overlay
+document.getElementById("loadingBlocker").style.display = 'none';
+</script>
+<script>
+// move user to the correct position in screen
+if (section_id.length > 0) {
+window.location.href = window.location.href;
+}
+</script>
+</body>
+</html>

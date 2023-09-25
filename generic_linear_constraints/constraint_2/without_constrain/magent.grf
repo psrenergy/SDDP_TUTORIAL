@@ -1,0 +1,6 @@
+TotalHydro  ,,H1          ,,H2          
+TotalTherm  ,,T1          ,,T2           
+TotalSystem ,,S1          
+TotalCirc   ,,C1          ,,C2          
+s1:Fuel0001 ,,T1           
+s1:Fuel0002 ,,T2           

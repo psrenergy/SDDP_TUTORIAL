@@ -1,0 +1,8 @@
+$version=2
+!Code,Name,sys_id,signal,rhs_type,unit,penalty [k$/unit],#terms,Res
+1,GLC_1,,=,0,,1000000000,2,0
+!Name,sys_id,var_name,coef,unit
+H1,s1,HTurb,1,hm3
+H1,s1,HOutf,-0.2,hm3
+!RHS
+0

@@ -1,0 +1,14 @@
+Type, Dimension
+Hydro plants with variable production coefficient, 0
+Hydro plants with evaporation variable with the area, 0
+Hydro plants with filtration variable with the storage, 0
+Hydro plants withnon-controllable spillage   (penalized), 0
+Hydro plants with non-controllable spillage, 0
+Hydro plants with LGC, 0
+Thermal plants with commitment, 0
+Thermal combined-cycle plants with optimized operative status, 0
+Thermal plants with concave specific consumption curve, 0
+Fuel contracts with make-up clause, 0
+Fuel contracts with carry forward clause, 0
+Generic inteporlation constraints, 0
+Flow controllers, 0

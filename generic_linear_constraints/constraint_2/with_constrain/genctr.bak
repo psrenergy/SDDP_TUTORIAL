@@ -1,0 +1,16 @@
+$version=2
+!Code,Name,sys_id,signal,rhs_type,unit,penalty [k$/unit],#terms,Res
+2,GLC_2_1,,=,0,,1000000000,3,0
+!Name,sys_id,var_name,coef,unit
+GVAR_1,,GVar,1,hm3
+H2,s1,HVolI,1,hm3
+H2,s1,HVolF,-1,hm3
+!RHS
+0
+!Code,Name,sys_id,signal,rhs_type,unit,penalty [k$/unit],#terms,Res
+3,GLC_2_2,,>=,0,,1000000000,2,0
+!Name,sys_id,var_name,coef,unit
+GVAR_1,,GVar,-0.2,hm3
+H2,s1,HTurb,1,hm3
+!RHS
+0

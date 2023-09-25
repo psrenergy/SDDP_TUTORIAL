@@ -1,0 +1,15 @@
+recipe = 1
+dimension = "blocks"
+chrono = false
+hrbmap = true
+dashboard = true
+k = 24
+sort = "descending"
+norm = 0
+k_high = 0
+p_high = 0
+k_low = 0
+p_low = 0
+initial_year = 2016
+final_year = 2016
+dashboard_title = "Demand per hour x per block"
