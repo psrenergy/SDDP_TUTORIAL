@@ -1,0 +1,4 @@
+Section,Total time [s],Self time [s],Count
+Main,0.66,0.25,1
+SDDP: load study,0.1,0.1,2
+PSRClasses: load study,0.31,0.31,2
