@@ -1,0 +1,862 @@
+[info] PSRIO v0.25.0
+[info] Loading sddp study (D:\SDDP_TUTORIAL\sensibility\with_sensibility_1_5)
+[info] Running ./sddp-reports.lua
+[info] Loading enaflu (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] GREATER_OR_EQUAL_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] GREATER_OR_EQUAL_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] GREATER_OR_EQUAL_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] sddp_dashboard_cost_tot selected, saving file
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Saving sddp_dashboard_cost_tot (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 2 [generic])
+   0%[>                                                                     ] ETA: --- 100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 2 [generic])
+[info] sddp_dashboard_cost_avg selected, saving file
+[info] Saving sddp_dashboard_cost_avg (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 2 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] sddp_dashboard_cost_disp selected, saving file
+[info] Saving sddp_dashboard_cost_disp (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] LESS_OR_EQUAL_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] LESS_OR_EQUAL_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] LESS_OR_EQUAL_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] MINUS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] MINUS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[error] SELECT_AGENTS: no agent fulfilled the query criteria at ...R\Sddp17.3Beta\Oper\psrio\base\extensions\expression.lua:123
+[info] sddp_dashboard_rev_tot selected, saving file
+[warn] sddp_dashboard_rev_tot not saved
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[error] SELECT_AGENTS: no agent fulfilled the query criteria at ...R\Sddp17.3Beta\Oper\psrio\base\extensions\expression.lua:123
+[info] sddp_dashboard_rev_avg selected, saving file
+[warn] sddp_dashboard_rev_avg not saved
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] GREATER_THAN: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] GREATER_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] GREATER_THAN= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] IFELSE: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] AGGREGATE_SCENARIOS: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] AGGREGATE_SCENARIOS= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] CONVERT: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] CONVERT= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+[info] sddprisk selected, saving file
+[info] Saving sddprisk (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+   0%[>                                                                     ] ETA: --- 100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading D:\SDDP_TUTORIAL\sensibility\with_sensibility_1_5\outfiles.out
+[info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] sddp_dashboard_viol_max_defcit selected, saving file
+[info] Saving sddp_dashboard_viol_max_defcit (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0.001s
+[info] Violation dashboard for defcit created successfully.
+[info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] sddp_dashboard_viol_avg_defcit selected, saving file
+[info] Saving sddp_dashboard_viol_avg_defcit (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0.001s
+[info] Violation dashboard for defcit created successfully.
+[info] Loading defbus (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] sddp_dashboard_viol_max_defbus selected, saving file
+[info] Saving sddp_dashboard_viol_max_defbus (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0.001s
+[info] Violation dashboard for defbus created successfully.
+[info] Loading defbus (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] sddp_dashboard_viol_avg_defbus selected, saving file
+[info] Saving sddp_dashboard_viol_avg_defbus (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0.001s
+[info] Violation dashboard for defbus created successfully.
+[info] Loading excbus (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Violation values for excbus aren't significatives. Skipping save... 
+[info] Loading excbus (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Violation values for excbus aren't significatives. Skipping save... 
+[info] Loading excsis (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Violation values for excsis aren't significatives. Skipping save... 
+[info] Loading excsis (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Violation values for excsis aren't significatives. Skipping save... 
+[info] Loading vgmntt (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[info] Violation values for vgmntt aren't significatives. Skipping save... 
+[info] Loading vgmntt (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[info] Violation values for vgmntt aren't significatives. Skipping save... 
+[error] vergnd not found
+[warn] AGGREGATE_AGENTS: null at ./sddp-reports.lua:229
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-reports.lua:229
+[warn] REMOVE_ZEROS: null at ./sddp-reports.lua:229
+[info] sddp_dashboard_result_avg_vergnd selected, saving file
+[warn] sddp_dashboard_result_avg_vergnd not saved
+[error] lgcgen not found
+[error] lgcrev not found
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-reports.lua:238
+[warn] AGGREGATE_STAGES: null at ./sddp-reports.lua:238
+[warn] REMOVE_ZEROS: null at ./sddp-reports.lua:238
+[info] sddp_dashboard_lgc_gen selected, saving file
+[warn] sddp_dashboard_lgc_gen not saved
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-reports.lua:241
+[warn] AGGREGATE_STAGES: null at ./sddp-reports.lua:241
+[warn] REMOVE_ZEROS: null at ./sddp-reports.lua:241
+[info] sddp_dashboard_lgc_rev selected, saving file
+[warn] sddp_dashboard_lgc_rev not saved
+[info] Running ./sddp-outputs.lua
+[warn] GREATER_THAN: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:4
+[error] eneemb not found
+[error] eembmx not found
+[warn] NOT_EQUAL_TO: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:9
+[warn] DIVISION: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:10
+[warn] IFELSE: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:8
+[warn] SELECT_AGENTS: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:8
+[warn] CONVERT: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:8
+[info] enembp not selected, skipping file
+[error] gergnd not found
+[warn] CONVERT: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:4
+[warn] EQUAL_TO: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:6
+[warn] DIVISION: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:6
+[warn] IFELSE: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:6
+[warn] CONVERT: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:6
+[info] usernw not selected, skipping file
+[info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] Loading demandel (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[info] GREATER_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[info] GREATER_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] GREATER_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] MULTIPLICATION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[info] MULTIPLICATION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] MULTIPLICATION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ((GWh)/(GWh))*(1), agents: 1 [system])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ((GWh)/(GWh))*(1), agents: 1 [system])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ((GWh)/(GWh))*(1), agents: 1 [system])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ((GWh)/(GWh))*(1), agents: 1 [system])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (((GWh)/(GWh))*(1))/(1), agents: 1 [system])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (((GWh)/(GWh))*(1))/(1), agents: 1 [system])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (((GWh)/(GWh))*(1))/(1), agents: 1 [system])
+[info] CONVERT: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (((GWh)/(GWh))*(1))/(1), agents: 1 [system])
+[info] CONVERT= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+[info] vere15 not selected, skipping file
+[error] renwscen not found
+[warn] MULTIPLICATION: null at ./sddp-outputs.lua:23
+[info] potgnd not selected, skipping file
+[info] oemgnd not selected, skipping file
+[info] Running ./sddp-dashlib.lua
+[info] Running ./sddp-dashboard.lua
+[info] Loading D:\SDDP_TUTORIAL\sensibility\with_sensibility_1_5\SDDP.info
+[info] file sddppol.csv does not exist. Policy report will not be displayed.
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] GREATER_OR_EQUAL_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] GREATER_OR_EQUAL_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] GREATER_OR_EQUAL_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] ABS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] ABS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Adding layers in "Breakdown of total operating costs" chart (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 2 [generic])
+   0%[>                                                                     ] ETA: --- 100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading sddptimes (stages: 1 [1:1] [linear] [1/2016], blocks: none, scenarios: 1, unit: sec, agents: 3 [generic])
+[info] Unit converted from [sec] to [s] with factor 1
+[info] Adding layers in "Execution times" chart (stages: 1 [1:1] [linear] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+   0%[>                                                                     ] ETA: --- 100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading extime (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[info] ABS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[info] ABS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[info] Loading sddppenp (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] CONVERT: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] CONVERT= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [generic])
+[info] Adding layers in "Share of violation penalties and deficit in the cost of each stage/scenario (%)" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading D:\SDDP_TUTORIAL\sensibility\with_sensibility_1_5\sddp_viol.out
+[info] Loading sddp_dashboard_viol_avg_defcit (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Adding layers in "Deficit" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading sddp_dashboard_viol_avg_defbus (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Adding layers in "Deficit per bus (% of load)" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading sddp_dashboard_viol_max_defcit (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Adding layers in "Deficit" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading sddp_dashboard_viol_max_defbus (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Adding layers in "Deficit per bus (% of load)" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] GREATER_OR_EQUAL_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] GREATER_OR_EQUAL_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] GREATER_OR_EQUAL_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] sddp_dashboard_cost_tot selected, saving file
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Saving sddp_dashboard_cost_tot (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 2 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[info] ABS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[info] ABS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Adding layers in "Dispersion of operating costs per stage" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Adding layers in "Dispersion of operating costs per stage" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Adding layers in "Dispersion of operating costs per stage" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] ABS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] ABS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[info] Adding layers in "Average operating costs per stage" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 2 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading cmgdem (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] AGGREGATE_SCENARIOS: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] AGGREGATE_SCENARIOS= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] Adding layers in "Annual marginal cost by system" chart (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+   0%[>                                                                     ] ETA: --- 100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[info] Adding layers in "Average marginal costs per stage per system" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading gerter (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[error] gerhid not found
+[error] gergnd not found
+[error] gerbat not found
+[warn] CONVERT: null at ./sddp-dashlib.lua:1071
+[error] powinj not found
+[info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1127
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1127
+[warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1127
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1128
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1128
+[warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1128
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1130
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1130
+[warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1130
+[warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1133
+[warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1134
+[warn] AND: null at ./sddp-dashlib.lua:1133
+[warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1135
+[warn] AND: null at ./sddp-dashlib.lua:1134
+[warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:1133
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1137
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1137
+[warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1137
+[warn] EQUAL_TO: null at ./sddp-dashlib.lua:1138
+[warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:1138
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1138
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1138
+[warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1138
+[warn] EQUAL_TO: null at ./sddp-dashlib.lua:1139
+[warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:1139
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1139
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1139
+[warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1139
+[warn] EQUAL_TO: null at ./sddp-dashlib.lua:1140
+[warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:1140
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1140
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1140
+[warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1140
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Adding layers in "Total generation" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Adding layers in "Total generation" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading cmgdem (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 1 [generic])
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1269
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1269
+[warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1269
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1269
+[warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1269
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1270
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1270
+[warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1270
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1270
+[warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1270
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] AGGREGATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] RENAME_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] RENAME_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1272
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1272
+[warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1272
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1272
+[warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1272
+[warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1275
+[warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1276
+[warn] AND: null at ./sddp-dashlib.lua:1275
+[warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1277
+[warn] AND: null at ./sddp-dashlib.lua:1276
+[warn] IFELSE: null at ./sddp-dashlib.lua:1275
+[warn] EQUAL_TO: null at ./sddp-dashlib.lua:1280
+[warn] IFELSE: null at ./sddp-dashlib.lua:1280
+[warn] EQUAL_TO: null at ./sddp-dashlib.lua:1283
+[warn] IFELSE: null at ./sddp-dashlib.lua:1283
+[warn] EQUAL_TO: null at ./sddp-dashlib.lua:1286
+[warn] IFELSE: null at ./sddp-dashlib.lua:1286
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1290
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1290
+[warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1290
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1290
+[warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1290
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1291
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1291
+[warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1291
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1291
+[warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1291
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1292
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1292
+[warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1292
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1292
+[warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1292
+[warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1293
+[warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1293
+[warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1293
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1293
+[warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1293
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[info] AGGREGATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] RENAME_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] RENAME_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[info] Adding layers in "Total Thermal" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Adding layers in "Total Deficit" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+   0%[>                                                                     ] ETA: ---   8%[=====>                                                                ] ETA: 0s            16%[===========>                                                          ] ETA: 0s            25%[=================>                                                    ] ETA: 0s            33%[=======================>                                              ] ETA: 0s            41%[=============================>                                        ] ETA: 0s            50%[===================================>                                  ] ETA: 0s            58%[========================================>                             ] ETA: 0s            66%[==============================================>                       ] ETA: 0s            75%[====================================================>                 ] ETA: 0s            83%[==========================================================>           ] ETA: 0s            91%[================================================================>     ] ETA: 0s           100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[info] Loading sddprisk (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+[info] Adding layers in "Deficit risk by system" chart (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+   0%[>                                                                     ] ETA: --- 100%[======================================================================] ETA: 0s           100%[======================================================================] Time: 0s
+[error] sddp_dashboard_input_enaflu not found
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:403
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:403
+[warn] SELECT_AGENT: null at ./sddp-dashlib.lua:404
+[warn] EQUAL_TO: null at ./sddp-dashlib.lua:346
+[warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:346
+[warn] EQUAL_TO: null at ./sddp-dashlib.lua:347
+[warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:347
+[warn] EQUAL_TO: null at ./sddp-dashlib.lua:348
+[warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:348
+[info] Saving SDDP.html
+[info] Running D:\SDDP_TUTORIAL\sensibility\with_sensibility_1_5\sddp.lua
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] CONCATENATE_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[info] CONCATENATE_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[info] CONCATENATE_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 54 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 54 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 54 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 54 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 54 [generic])
+[info] SELECT_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] AGGREGATE_SCENARIOS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] AGGREGATE_SCENARIOS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [generic])
+[info] SELECT_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 2 [generic])
+[error] sol: runtime error: The remove_zeros save option is deprecated, you should use the exp:remove_zeros() method
+stack traceback:
+	[C]: in method 'save'
+	D:\SDDP_TUTORIAL\sensibility\with_sensibility_1_5\sddp.lua:3: in main chunk
+[error] PSRIO v0.25.0 did not finish successfully

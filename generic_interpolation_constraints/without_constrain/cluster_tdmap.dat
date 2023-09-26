@@ -1,0 +1,10 @@
+recipe = 2
+dimension = "days"
+chrono = false
+k = 1
+initial_year = 2016
+final_year = 2016
+save_csv = true
+save_dashboard = true
+debug = false
+mapday = true

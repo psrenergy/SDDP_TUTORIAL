@@ -1,25 +1,4 @@
 Section,Total time [s],Self time [s],Count
-Main,1.55,0.06,1
-Policy,0.08,0.,1
-Initilization of states,0.02,0.01,1
-Forward,0.03,0.01,1
-Backward,0.02,0.01,1
-Simulation,0.11,0.1,1
-Solver initialization,0.,0.,47
-Solver load,0.,0.,47
-Solver solve,0.01,0.01,79
-B matrix calculation,0.,0.,47
-Inflows generation,0.01,0.01,1
-Network solution,0.,0.,288
-Flows calculation,0.01,0.01,1128
-SDDP: load study,0.12,0.12,4
-SDDP: update stage,0.,0.,71
-SDDP: update scenario,0.,0.,71
-PSRClasses: load study,0.26,0.26,2
-PSRClasses: update stage,0.01,0.01,107
-Simulation statistics,0.9,0.06,1
-Post-processing (PSRIO),0.83,0.83,1
-Working files backup,0.02,0.02,2
-PSRNetwork: solveB,0.,0.,1128
-PSRNetwork: other,0.,0.,3720
-Check Cut,0.,0.,79
+Main,0.52,0.17,1
+SDDP: load study,0.06,0.06,2
+PSRClasses: load study,0.29,0.29,2

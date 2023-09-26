@@ -1,0 +1,21 @@
+$version=2
+!Filename,Description,Unit,Class
+demand.csv,Load per system - inelastic,GWh,syst
+demxba.csv,Load per bus - inelastic,GWh,barr
+defcos.csv,Deficit cost,k$,syst
+cirflw.csv,AC Circuit flow,MW,circ
+defcit.csv,Deficit,GWh,syst
+gerter.csv,Thermal generation,GWh,term
+cmgbus.csv,AC Bus marginal cost,$/MWh,barr
+cmgdem.csv,Load marginal cost,$/MWh,syst
+duraci.csv,Load level length,h,syst
+demandel.csv,Load per system - supplied,GWh,syst
+demxclel.csv,Load per class - supplied,GWh,load
+hblock.csv,Hour-block mapping,Block,    
+gerterMW.csv,Thermal generation in MW,MW,term
+objcop.csv,Costs by category,k$,objc
+excsis.csv,Generation excess per system,GWh,syst
+duracipu.csv,Block length in pu,pu,    
+businj.csv,Net AC bus injection,MW,barr
+gncivio.csv,Generic int. ctr. violation,unit,gncc
+gncivic.csv,Generic int. ctr. violation cost,k$,gncc

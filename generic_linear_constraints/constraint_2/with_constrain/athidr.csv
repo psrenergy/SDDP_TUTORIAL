@@ -1,4 +1,0 @@
-Name        ,System      ,DownS. Turb.,DownS. Spil.,Number      ,# Units     ,Capacity    ,Min. Turb.  ,Max. Turb.  ,Min. Outflow,Prod. Coeff.,Min. Storage,Max. Storage,Existing    ,Reservoir   
-           1,           1,           1,           1,           0,           0,           0,           0,           0,           0,           0,           0,           0,           2,           2
-H1          ,S1          ,            ,            ,           1,           1,  10.000    ,  0.0000    ,  50.000    ,  0.0000    , 0.20000    ,  0.0000    ,  50.000    ,           1,           1
-H2          ,S1          ,            ,            ,           2,           1,  10.000    ,  0.0000    ,  50.000    ,  0.0000    , 0.20000    ,  0.0000    ,  50.000    ,           1,           1

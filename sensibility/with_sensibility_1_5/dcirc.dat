@@ -1,0 +1,4 @@
+$version=2
+#BOR.   #BDE.NN  .RESIS.REACT Nome........(MVAR)(Tmn)(Tmx)(  MW)(MW) (Num) I C ....1 ....2 ....3 ....4 ....5 iflh Prob(%) Cmon S RPK2 PRTC ..phsmin ..phsmax
+    1       2      0.08   0.4 C1                            500. 600     1 0 0                                  0            1 0                 0.       0.
+    2       3      0.01   0.1 C2                            700. 780     2 0 0                                  0            1 0                 0.       0.

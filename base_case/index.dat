@@ -342,7 +342,6 @@ Num Graph...........................|...Unid Type  Y/N
 393 Minimum hydro unit turbining violm3/s       7    0
 394 Minimum hydro unit turbining violk$         8    0
 395 Generic variable                 unit       2    0
-396 Battery losses                   MWh        2    0
 397 Exclusive reserve                MW         2    0
 409 Circuit joint reserve            MW         2    0
 410 Fuel contract availability       k.units    0    0

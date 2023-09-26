@@ -1,0 +1,19 @@
+Section,Total time [s],Self time [s],Count
+Main,2.04,0.2,1
+Simulation,0.56,0.12,1
+Solver initialization,0.,0.,12
+Solver load,0.01,0.01,12
+Solver solve,0.39,0.39,24
+B matrix calculation,0.,0.,12
+Network solution,0.,0.,288
+Flows calculation,0.,0.,576
+SDDP: load study,0.2,0.2,4
+SDDP: update stage,0.,0.,36
+SDDP: update scenario,0.01,0.01,36
+PSRClasses: load study,0.31,0.31,2
+PSRClasses: update stage,0.,0.,72
+Simulation statistics,0.77,0.06,1
+Post-processing (PSRIO),0.71,0.71,1
+PSRNetwork: solveB,0.01,0.01,576
+PSRNetwork: other,0.01,0.01,2029
+Check Cut,0.,0.,24

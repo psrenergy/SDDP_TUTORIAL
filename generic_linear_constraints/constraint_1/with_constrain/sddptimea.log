@@ -1,8 +1,8 @@
 Execution Time (m)
  
 Phase, Time
-Initilization of states,.0003333
-Forward,0.0005
-Backward,.0003333
-Simulation,.0018333
-Total,.0258333
+Initilization of states,0.
+Forward,0.
+Backward,0.
+Simulation,0.
+Total,.0086667

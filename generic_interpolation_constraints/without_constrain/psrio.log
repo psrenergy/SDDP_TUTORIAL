@@ -1,0 +1,1089 @@
+[2023-09-26 10:43:23.584] [info] .\psrio\psrio.exe -i ./indexdat.fmt --load_only_csv --verbose 2 -s -r ./sddp-reports.lua,./sddp-outputs.lua,./sddp-dashlib.lua,./sddp-dashboard.lua,D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp.lua D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\/ 
+[2023-09-26 10:43:23.584] [info] PSRIO v0.25.0
+[2023-09-26 10:43:23.584] [info] Executable path C:\PSR\Sddp17.3Beta\Oper\psrio
+[2023-09-26 10:43:23.584] [info] Added script ./sddp-reports.lua
+[2023-09-26 10:43:23.584] [info] Added script ./sddp-outputs.lua
+[2023-09-26 10:43:23.584] [info] Added script ./sddp-dashlib.lua
+[2023-09-26 10:43:23.584] [info] Added script ./sddp-dashboard.lua
+[2023-09-26 10:43:23.585] [info] Added script D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp.lua
+[2023-09-26 10:43:23.585] [info] Packages path C:\PSR\Sddp17.3Beta\Oper\psrio\base\?.lua;C:\PSR\Sddp17.3Beta\Oper\?.lua;C:\PSR\Sddp17.3Beta\Oper\?.lua;C:\PSR\Sddp17.3Beta\Oper\?.lua;C:\PSR\Sddp17.3Beta\Oper\?.lua;D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\?.lua
+[2023-09-26 10:43:23.591] [info] Loading extensions/expression.lua
+[2023-09-26 10:43:23.591] [info] Loading extensions/tab.lua
+[2023-09-26 10:43:23.591] [info] Loading extensions/writer.lua
+[2023-09-26 10:43:23.809] [info] psrio.pmk loaded
+[2023-09-26 10:43:23.817] [info] psrio.pmd loaded
+[2023-09-26 10:43:23.817] [info] Deleting temporary files and folders
+[2023-09-26 10:43:23.817] [info] Creating temporary directory ("D:\\SDDP_TUTORIAL\\generic_interpolation_constraints\\without_constrain\\tmp-psrio")
+[2023-09-26 10:43:23.818] [info] Loading sddp study (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain)
+[2023-09-26 10:43:23.818] [info] Loading D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp.dat
+[2023-09-26 10:43:23.874] [info] Running ./sddp-reports.lua
+[2023-09-26 10:43:23.876] [info] Converting enaflu to binary
+[2023-09-26 10:43:23.878] [info] Loading enaflu (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.878] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.878] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.878] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.878] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.879] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.879] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.879] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.879] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.879] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.879] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.879] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.879] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.879] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.880] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.880] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.880] [info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.880] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.880] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.880] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.880] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.881] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.883] [info] Converting objcop to binary
+[2023-09-26 10:43:23.885] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.885] [info] Loading study.discount_rate (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.885] [info] Loading study.stage (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.886] [info] Loading study.stage_in_year (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.886] [info] Loading study.scenario (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.886] [info] Loading study.block (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.886] [info] Loading study.blocks_per_stage (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.886] [info] Loading study.hour (stages: 12 [1:12] [month] [1/2016], blocks: hour, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.886] [info] Loading study.hours (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.886] [info] Loading study.year (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.886] [info] Loading study.deficit_segment_1 (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [study])
+[2023-09-26 10:43:23.886] [info] Loading deficit_segment_2 (not found)
+[2023-09-26 10:43:23.886] [info] Loading deficit_segment_3 (not found)
+[2023-09-26 10:43:23.886] [info] Loading deficit_segment_4 (not found)
+[2023-09-26 10:43:23.887] [info] Loading study.deficit_cost_1 (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] Loading deficit_cost_2 (not found)
+[2023-09-26 10:43:23.887] [info] Loading deficit_cost_3 (not found)
+[2023-09-26 10:43:23.887] [info] Loading deficit_cost_4 (not found)
+[2023-09-26 10:43:23.887] [info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.887] [info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] GREATER_OR_EQUAL_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] GREATER_OR_EQUAL_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.887] [info] GREATER_OR_EQUAL_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.887] [info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.887] [info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.887] [info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.887] [info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.887] [info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.887] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.887] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.887] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.887] [info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.888] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.888] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.888] [info] SELECT_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:23.888] [info] sddp_dashboard_cost_tot selected, saving file
+[2023-09-26 10:43:23.889] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:23.889] [info] Saving sddp_dashboard_cost_tot (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.889] [info] Converting to csv
+[2023-09-26 10:43:23.890] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.890] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.890] [info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.890] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.890] [info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.890] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.890] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.891] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.891] [info] sddp_dashboard_cost_avg selected, saving file
+[2023-09-26 10:43:23.892] [info] Saving sddp_dashboard_cost_avg (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.892] [info] Converting to csv
+[2023-09-26 10:43:23.898] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.898] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.899] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.899] [info] sddp_dashboard_cost_disp selected, saving file
+[2023-09-26 10:43:23.900] [info] Saving sddp_dashboard_cost_disp (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+[2023-09-26 10:43:23.901] [info] Converting to csv
+[2023-09-26 10:43:23.902] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.902] [info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.903] [info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] LESS_OR_EQUAL_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] LESS_OR_EQUAL_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.903] [info] LESS_OR_EQUAL_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.903] [info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.903] [info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] MINUS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] MINUS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.903] [info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.903] [info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.903] [info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.903] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.903] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.903] [info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.903] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.904] [error] SELECT_AGENTS: no agent fulfilled the query criteria at ...R\Sddp17.3Beta\Oper\psrio\base\extensions\expression.lua:123
+[2023-09-26 10:43:23.904] [info] sddp_dashboard_rev_tot selected, saving file
+[2023-09-26 10:43:23.904] [warn] sddp_dashboard_rev_tot not saved
+[2023-09-26 10:43:23.904] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.904] [info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.904] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.904] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.904] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.904] [error] SELECT_AGENTS: no agent fulfilled the query criteria at ...R\Sddp17.3Beta\Oper\psrio\base\extensions\expression.lua:123
+[2023-09-26 10:43:23.904] [info] sddp_dashboard_rev_avg selected, saving file
+[2023-09-26 10:43:23.904] [warn] sddp_dashboard_rev_avg not saved
+[2023-09-26 10:43:23.904] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.904] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.905] [info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+[2023-09-26 10:43:23.905] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 3 [generic])
+[2023-09-26 10:43:23.905] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.905] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.905] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.905] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.906] [info] Loading system.code (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.906] [info] Loading system.load_level_length (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: hour, agents: 1 [system])
+[2023-09-26 10:43:23.906] [info] Loading system.hour_block_map (stages: 12 [1:12] [month] [1/2016], blocks: hour, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.906] [info] Loading system.sensitivity (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.906] [info] Loading system.carbon_credit_cost (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/tCO2, agents: 1 [system])
+[2023-09-26 10:43:23.907] [info] Converting defcit to binary
+[2023-09-26 10:43:23.909] [info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] GREATER_THAN: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] GREATER_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.909] [info] GREATER_THAN= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] IFELSE: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.909] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.909] [info] IFELSE= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] AGGREGATE_SCENARIOS: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] AGGREGATE_SCENARIOS= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] CONVERT: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] Unit converted from [] to [%] with factor 100.000000
+[2023-09-26 10:43:23.909] [info] CONVERT= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+[2023-09-26 10:43:23.909] [info] sddprisk selected, saving file
+[2023-09-26 10:43:23.909] [info] Saving sddprisk (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+[2023-09-26 10:43:23.910] [info] Converting to csv
+[2023-09-26 10:43:23.911] [info] Loading D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\outfiles.out
+[2023-09-26 10:43:23.913] [info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.913] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.913] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.913] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.913] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.913] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.913] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.913] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.913] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] Violation values for defcit aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.914] [info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.914] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.916] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.916] [info] Violation values for defcit aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.917] [info] Converting defbus to binary
+[2023-09-26 10:43:23.919] [info] Loading defbus (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.919] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.919] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.919] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.919] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.919] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.919] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.919] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.919] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.921] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.921] [info] Violation values for defbus aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.922] [info] Loading defbus (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.922] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.922] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.922] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.922] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.922] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.922] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.922] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.922] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.923] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.924] [info] Violation values for defbus aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.925] [info] Converting excbus to binary
+[2023-09-26 10:43:23.926] [info] Loading excbus (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.926] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.926] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.926] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.926] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.926] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.927] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.927] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.927] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.928] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.929] [info] Violation values for excbus aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.929] [info] Loading excbus (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.929] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.929] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.929] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.929] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.929] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 3 [generic])
+[2023-09-26 10:43:23.929] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.929] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.929] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.930] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.931] [info] Violation values for excbus aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.931] [info] Converting excsis to binary
+[2023-09-26 10:43:23.932] [info] Loading excsis (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.932] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.932] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.932] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.932] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.932] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.932] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.932] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.932] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] Violation values for excsis aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.934] [info] Loading excsis (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.934] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.935] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:23.935] [info] Violation values for excsis aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.936] [info] Converting vgmntt to binary
+[2023-09-26 10:43:23.937] [info] Loading vgmntt (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.937] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.937] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.937] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.938] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.938] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.938] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[2023-09-26 10:43:23.938] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[2023-09-26 10:43:23.938] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[2023-09-26 10:43:23.939] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[2023-09-26 10:43:23.939] [info] Violation values for vgmntt aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.939] [info] Loading vgmntt (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.939] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.939] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.939] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.940] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.940] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [generic])
+[2023-09-26 10:43:23.940] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[2023-09-26 10:43:23.940] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[2023-09-26 10:43:23.940] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[2023-09-26 10:43:23.941] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 1 [generic])
+[2023-09-26 10:43:23.941] [info] Violation values for vgmntt aren't significatives. Skipping save... 
+[2023-09-26 10:43:23.942] [info] Entrou aqui
+[2023-09-26 10:43:23.942] [info] Loading code (not found)
+[2023-09-26 10:43:23.942] [info] Loading state (not found)
+[2023-09-26 10:43:23.942] [info] Loading units (not found)
+[2023-09-26 10:43:23.942] [info] Loading system (not found)
+[2023-09-26 10:43:23.942] [info] Loading tech_type (not found)
+[2023-09-26 10:43:23.942] [info] Loading capacity (not found)
+[2023-09-26 10:43:23.942] [info] Loading om_cost (not found)
+[2023-09-26 10:43:23.942] [info] Loading hour_scenarios (not found)
+[2023-09-26 10:43:23.942] [info] Loading block_scenarios (not found)
+[2023-09-26 10:43:23.942] [info] Loading operation_factor (not found)
+[2023-09-26 10:43:23.943] [error] vergnd not found
+[2023-09-26 10:43:23.943] [warn] AGGREGATE_AGENTS: null at ./sddp-reports.lua:229
+[2023-09-26 10:43:23.943] [warn] AGGREGATE_SCENARIOS: null at ./sddp-reports.lua:229
+[2023-09-26 10:43:23.943] [warn] REMOVE_ZEROS: null at ./sddp-reports.lua:229
+[2023-09-26 10:43:23.943] [info] sddp_dashboard_result_avg_vergnd selected, saving file
+[2023-09-26 10:43:23.943] [warn] sddp_dashboard_result_avg_vergnd not saved
+[2023-09-26 10:43:23.943] [info] Loading code (not found)
+[2023-09-26 10:43:23.943] [info] Loading state (not found)
+[2023-09-26 10:43:23.943] [info] Loading units (not found)
+[2023-09-26 10:43:23.943] [info] Loading system (not found)
+[2023-09-26 10:43:23.943] [info] Loading max_generation (not found)
+[2023-09-26 10:43:23.943] [info] Loading max_generation_available (not found)
+[2023-09-26 10:43:23.943] [info] Loading forced_outage_rate (not found)
+[2023-09-26 10:43:23.943] [info] Loading historical_outage_factor (not found)
+[2023-09-26 10:43:23.943] [info] Loading min_storage (not found)
+[2023-09-26 10:43:23.943] [info] Loading max_storage (not found)
+[2023-09-26 10:43:23.943] [info] Loading min_turbining_outflow (not found)
+[2023-09-26 10:43:23.943] [info] Loading max_turbining_outflow (not found)
+[2023-09-26 10:43:23.944] [info] Loading om_cost (not found)
+[2023-09-26 10:43:23.944] [info] Loading irrigation (not found)
+[2023-09-26 10:43:23.944] [info] Loading min_total_outflow_modification (not found)
+[2023-09-26 10:43:23.944] [info] Loading target_storage_tolerance (not found)
+[2023-09-26 10:43:23.944] [info] Loading disconsider_in_stored_and_inflow_energy (not found)
+[2023-09-26 10:43:23.944] [info] Loading mean_production_coefficient (not found)
+[2023-09-26 10:43:23.944] [info] Loading loss_factor (not found)
+[2023-09-26 10:43:23.944] [info] Loading min_total_outflow_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.944] [info] Loading min_total_outflow_historical_scenarios (not found)
+[2023-09-26 10:43:23.944] [info] Loading min_total_outflow (not found)
+[2023-09-26 10:43:23.944] [info] Loading min_total_outflow_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.944] [info] Loading min_total_outflow_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.944] [info] Loading min_total_outflow_hourly (not found)
+[2023-09-26 10:43:23.944] [info] Loading min_total_outflow_unit_violation_cost (not found)
+[2023-09-26 10:43:23.944] [info] Loading min_total_outflow_violation_type (not found)
+[2023-09-26 10:43:23.944] [info] Loading max_total_outflow_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.944] [info] Loading max_total_outflow_historical_scenarios (not found)
+[2023-09-26 10:43:23.944] [info] Loading max_total_outflow (not found)
+[2023-09-26 10:43:23.944] [info] Loading max_total_outflow_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_total_outflow_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_total_outflow_hourly (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_total_outflow_unit_violation_cost (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_total_outflow_violation_type (not found)
+[2023-09-26 10:43:23.945] [info] Loading min_operative_storage_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.945] [info] Loading min_operative_storage_historical_scenarios (not found)
+[2023-09-26 10:43:23.945] [info] Loading min_operative_storage (not found)
+[2023-09-26 10:43:23.945] [info] Loading min_operative_storage_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.945] [info] Loading min_operative_storage_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.945] [info] Loading min_operative_storage_hourly (not found)
+[2023-09-26 10:43:23.945] [info] Loading min_operative_storage_unit_violation_cost (not found)
+[2023-09-26 10:43:23.945] [info] Loading min_operative_storage_violation_type (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_operative_storage_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_operative_storage_historical_scenarios (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_operative_storage (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_operative_storage_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_operative_storage_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.945] [info] Loading max_operative_storage_hourly (not found)
+[2023-09-26 10:43:23.946] [info] Loading max_operative_storage_unit_violation_cost (not found)
+[2023-09-26 10:43:23.946] [info] Loading max_operative_storage_violation_type (not found)
+[2023-09-26 10:43:23.946] [info] Loading flood_control_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.946] [info] Loading flood_control_historical_scenarios (not found)
+[2023-09-26 10:43:23.946] [info] Loading flood_control (not found)
+[2023-09-26 10:43:23.946] [info] Loading flood_control_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.946] [info] Loading flood_control_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.946] [info] Loading flood_control_hourly (not found)
+[2023-09-26 10:43:23.946] [info] Loading alert_storage_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.946] [info] Loading alert_storage_historical_scenarios (not found)
+[2023-09-26 10:43:23.946] [info] Loading alert_storage (not found)
+[2023-09-26 10:43:23.946] [info] Loading alert_storage_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.946] [info] Loading alert_storage_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.946] [info] Loading alert_storage_hourly (not found)
+[2023-09-26 10:43:23.946] [info] Loading alert_storage_unit_violation_cost (not found)
+[2023-09-26 10:43:23.946] [info] Loading alert_storage_violation_type (not found)
+[2023-09-26 10:43:23.946] [info] Loading min_spillage_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.947] [info] Loading min_spillage_historical_scenarios (not found)
+[2023-09-26 10:43:23.947] [info] Loading min_spillage (not found)
+[2023-09-26 10:43:23.947] [info] Loading min_spillage_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.947] [info] Loading min_spillage_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.947] [info] Loading min_spillage_hourly (not found)
+[2023-09-26 10:43:23.947] [info] Loading min_spillage_unit_violation_cost (not found)
+[2023-09-26 10:43:23.947] [info] Loading min_spillage_violation_type (not found)
+[2023-09-26 10:43:23.947] [info] Loading max_spillage_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.947] [info] Loading max_spillage_historical_scenarios (not found)
+[2023-09-26 10:43:23.947] [info] Loading max_spillage (not found)
+[2023-09-26 10:43:23.947] [info] Loading max_spillage_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.947] [info] Loading max_spillage_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.947] [info] Loading max_spillage_hourly (not found)
+[2023-09-26 10:43:23.947] [info] Loading max_spillage_unit_violation_cost (not found)
+[2023-09-26 10:43:23.947] [info] Loading max_spillage_violation_type (not found)
+[2023-09-26 10:43:23.947] [info] Loading min_bio_spillage_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.948] [info] Loading min_bio_spillage_historical_scenarios (not found)
+[2023-09-26 10:43:23.948] [info] Loading min_bio_spillage (not found)
+[2023-09-26 10:43:23.948] [info] Loading min_bio_spillage_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.948] [info] Loading min_bio_spillage_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.948] [info] Loading min_bio_spillage_hourly (not found)
+[2023-09-26 10:43:23.948] [info] Loading min_bio_spillage_unit_violation_cost (not found)
+[2023-09-26 10:43:23.948] [info] Loading min_bio_spillage_violation_type (not found)
+[2023-09-26 10:43:23.948] [info] Loading target_storage_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.948] [info] Loading target_storage_historical_scenarios (not found)
+[2023-09-26 10:43:23.948] [info] Loading target_storage (not found)
+[2023-09-26 10:43:23.948] [info] Loading target_storage_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.948] [info] Loading target_storage_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.948] [info] Loading target_storage_hourly (not found)
+[2023-09-26 10:43:23.948] [info] Loading min_turbining_unit_violation_cost (not found)
+[2023-09-26 10:43:23.948] [info] Loading min_turbining_violation_type (not found)
+[2023-09-26 10:43:23.949] [info] Loading max_turbining_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.949] [info] Loading max_turbining_historical_scenarios (not found)
+[2023-09-26 10:43:23.949] [info] Loading max_turbining (not found)
+[2023-09-26 10:43:23.949] [info] Loading max_turbining_hourly_historical_scenarios_nodata (not found)
+[2023-09-26 10:43:23.949] [info] Loading max_turbining_hourly_historical_scenarios (not found)
+[2023-09-26 10:43:23.949] [info] Loading max_turbining_hourly (not found)
+[2023-09-26 10:43:23.949] [info] Loading max_turbining_unit_violation_cost (not found)
+[2023-09-26 10:43:23.949] [info] Loading max_turbining_violation_type (not found)
+[2023-09-26 10:43:23.949] [info] Loading spinning_reserve (not found)
+[2023-09-26 10:43:23.949] [info] Loading max_reserve (not found)
+[2023-09-26 10:43:23.949] [info] Loading storage_x_elevation__storage_1 (not found)
+[2023-09-26 10:43:23.949] [info] Loading storage_x_elevation__storage_2 (not found)
+[2023-09-26 10:43:23.949] [info] Loading storage_x_elevation__storage_3 (not found)
+[2023-09-26 10:43:23.949] [info] Loading storage_x_elevation__storage_4 (not found)
+[2023-09-26 10:43:23.950] [info] Loading storage_x_elevation__storage_5 (not found)
+[2023-09-26 10:43:23.950] [info] Loading storage_x_elevation__elevation_1 (not found)
+[2023-09-26 10:43:23.950] [info] Loading storage_x_elevation__elevation_2 (not found)
+[2023-09-26 10:43:23.950] [info] Loading storage_x_elevation__elevation_3 (not found)
+[2023-09-26 10:43:23.950] [info] Loading storage_x_elevation__elevation_4 (not found)
+[2023-09-26 10:43:23.950] [info] Loading storage_x_elevation__elevation_5 (not found)
+[2023-09-26 10:43:23.950] [error] lgcgen not found
+[2023-09-26 10:43:23.951] [error] lgcrev not found
+[2023-09-26 10:43:23.951] [warn] AGGREGATE_SCENARIOS: null at ./sddp-reports.lua:238
+[2023-09-26 10:43:23.951] [warn] AGGREGATE_STAGES: null at ./sddp-reports.lua:238
+[2023-09-26 10:43:23.951] [warn] REMOVE_ZEROS: null at ./sddp-reports.lua:238
+[2023-09-26 10:43:23.951] [info] sddp_dashboard_lgc_gen selected, saving file
+[2023-09-26 10:43:23.951] [warn] sddp_dashboard_lgc_gen not saved
+[2023-09-26 10:43:23.951] [warn] AGGREGATE_SCENARIOS: null at ./sddp-reports.lua:241
+[2023-09-26 10:43:23.951] [warn] AGGREGATE_STAGES: null at ./sddp-reports.lua:241
+[2023-09-26 10:43:23.951] [warn] REMOVE_ZEROS: null at ./sddp-reports.lua:241
+[2023-09-26 10:43:23.951] [info] sddp_dashboard_lgc_rev selected, saving file
+[2023-09-26 10:43:23.951] [warn] sddp_dashboard_lgc_rev not saved
+[2023-09-26 10:43:23.951] [info] Running ./sddp-outputs.lua
+[2023-09-26 10:43:23.951] [warn] GREATER_THAN: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:4
+[2023-09-26 10:43:23.951] [error] eneemb not found
+[2023-09-26 10:43:23.952] [error] eembmx not found
+[2023-09-26 10:43:23.952] [warn] NOT_EQUAL_TO: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:9
+[2023-09-26 10:43:23.952] [warn] DIVISION: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:10
+[2023-09-26 10:43:23.952] [warn] IFELSE: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:8
+[2023-09-26 10:43:23.952] [warn] SELECT_AGENTS: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:8
+[2023-09-26 10:43:23.952] [warn] CONVERT: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/enembp.lua:8
+[2023-09-26 10:43:23.952] [info] enembp not selected, skipping file
+[2023-09-26 10:43:23.952] [error] gergnd not found
+[2023-09-26 10:43:23.952] [warn] CONVERT: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:4
+[2023-09-26 10:43:23.952] [warn] EQUAL_TO: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:6
+[2023-09-26 10:43:23.952] [warn] DIVISION: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:6
+[2023-09-26 10:43:23.952] [warn] IFELSE: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:6
+[2023-09-26 10:43:23.952] [warn] CONVERT: null at C:\PSR\Sddp17.3Beta\Oper\psrio\base\sddp/usernw.lua:6
+[2023-09-26 10:43:23.952] [info] usernw not selected, skipping file
+[2023-09-26 10:43:23.952] [info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.952] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.952] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.953] [info] Converting demandel to binary
+[2023-09-26 10:43:23.955] [info] Loading demandel (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.955] [info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.955] [info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] GREATER_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] GREATER_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.955] [info] GREATER_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.955] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.955] [info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.955] [info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] MULTIPLICATION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (GWh)/(GWh), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] MULTIPLICATION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] MULTIPLICATION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ((GWh)/(GWh))*(1), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ((GWh)/(GWh))*(1), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ((GWh)/(GWh))*(1), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ((GWh)/(GWh))*(1), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (((GWh)/(GWh))*(1))/(1), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (((GWh)/(GWh))*(1))/(1), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.955] [info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (((GWh)/(GWh))*(1))/(1), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] CONVERT: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (((GWh)/(GWh))*(1))/(1), agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] Unit converted from [(((GWh)/(GWh))*(1))/(1)] to [%] with factor 100.000000
+[2023-09-26 10:43:23.955] [info] CONVERT= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+[2023-09-26 10:43:23.955] [info] vere15 not selected, skipping file
+[2023-09-26 10:43:23.956] [error] renwscen not found
+[2023-09-26 10:43:23.956] [warn] MULTIPLICATION: null at ./sddp-outputs.lua:23
+[2023-09-26 10:43:23.956] [info] potgnd not selected, skipping file
+[2023-09-26 10:43:23.956] [info] oemgnd not selected, skipping file
+[2023-09-26 10:43:23.956] [info] Running ./sddp-dashlib.lua
+[2023-09-26 10:43:23.958] [info] Running ./sddp-dashboard.lua
+[2023-09-26 10:43:23.958] [info] Loading D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\SDDP.info
+[2023-09-26 10:43:23.959] [info] Loading code (not found)
+[2023-09-26 10:43:23.959] [info] Loading state (not found)
+[2023-09-26 10:43:23.959] [info] Loading capacity (not found)
+[2023-09-26 10:43:23.959] [info] Loading bus.code (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 3 [bus])
+[2023-09-26 10:43:23.959] [info] Loading bus.voltage_level (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: kV, agents: 3 [bus])
+[2023-09-26 10:43:23.959] [info] Loading circuit.code (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [circuit])
+[2023-09-26 10:43:23.959] [info] Loading circuit.state (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [circuit])
+[2023-09-26 10:43:23.960] [info] Loading circuit.resistance (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 2 [circuit])
+[2023-09-26 10:43:23.960] [info] Loading circuit.reactance (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 2 [circuit])
+[2023-09-26 10:43:23.960] [info] Loading circuit.capacity (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [circuit])
+[2023-09-26 10:43:23.960] [info] Loading circuit.emergency_capacity (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [circuit])
+[2023-09-26 10:43:23.960] [info] Loading DLR_factor (not found)
+[2023-09-26 10:43:23.960] [info] Loading circuit.monitored (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [circuit])
+[2023-09-26 10:43:23.960] [info] Loading circuit.monitored_contingencies (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [circuit])
+[2023-09-26 10:43:23.960] [info] Loading circuit.is_dc (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [circuit])
+[2023-09-26 10:43:23.961] [info] Loading circuit.international_cost_from (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 2 [circuit])
+[2023-09-26 10:43:23.961] [info] Loading circuit.international_cost_to (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 2 [circuit])
+[2023-09-26 10:43:23.961] [info] Loading code (not found)
+[2023-09-26 10:43:23.961] [info] Loading state (not found)
+[2023-09-26 10:43:23.961] [info] Loading capacity_from (not found)
+[2023-09-26 10:43:23.961] [info] Loading capacity_to (not found)
+[2023-09-26 10:43:23.961] [info] Loading cost_from (not found)
+[2023-09-26 10:43:23.961] [info] Loading cost_to (not found)
+[2023-09-26 10:43:23.961] [info] Loading code (not found)
+[2023-09-26 10:43:23.961] [info] Loading hour_capacity (not found)
+[2023-09-26 10:43:23.961] [info] Loading hour_price (not found)
+[2023-09-26 10:43:23.962] [info] Loading thermal.code (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [thermal])
+[2023-09-26 10:43:23.962] [info] Loading thermal.state (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [thermal])
+[2023-09-26 10:43:23.962] [info] Loading thermal.units (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [thermal])
+[2023-09-26 10:43:23.962] [info] Loading thermal.system (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [thermal])
+[2023-09-26 10:43:23.962] [info] Loading thermal.min_generation (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [thermal])
+[2023-09-26 10:43:23.963] [info] Loading thermal.min_generation_available (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [thermal])
+[2023-09-26 10:43:23.963] [info] Loading thermal.min_generation_constraint (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [thermal])
+[2023-09-26 10:43:23.963] [info] Loading thermal.max_generation (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [thermal])
+[2023-09-26 10:43:23.963] [info] Loading thermal.max_generation_available (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW, agents: 2 [thermal])
+[2023-09-26 10:43:23.963] [info] Loading thermal.forced_outage_rate (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 2 [thermal])
+[2023-09-26 10:43:23.963] [info] Loading thermal.historical_outage_factor (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 2 [thermal])
+[2023-09-26 10:43:23.964] [info] Loading thermal.startup_cost (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 2 [thermal])
+[2023-09-26 10:43:23.964] [info] Loading thermal.startup_cost_constraint (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: k$, agents: 2 [thermal])
+[2023-09-26 10:43:23.964] [info] Loading thermal.om_cost (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 2 [thermal])
+[2023-09-26 10:43:23.964] [info] Loading thermal.specific_consumption_segment_1 (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: gal/MWh, agents: 2 [thermal])
+[2023-09-26 10:43:23.964] [info] Loading thermal.specific_consumption_segment_2 (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: gal/MWh, agents: 2 [thermal])
+[2023-09-26 10:43:23.965] [info] Loading thermal.specific_consumption_segment_3 (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: gal/MWh, agents: 2 [thermal])
+[2023-09-26 10:43:23.965] [info] Loading thermal.curve_segment_1 (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 2 [thermal])
+[2023-09-26 10:43:23.965] [info] Loading thermal.curve_segment_2 (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 2 [thermal])
+[2023-09-26 10:43:23.965] [info] Loading thermal.curve_segment_3 (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 2 [thermal])
+[2023-09-26 10:43:23.965] [info] Loading thermal.fuel_transportation_cost (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/gal, agents: 2 [thermal])
+[2023-09-26 10:43:23.966] [info] Loading thermal.operation_mode (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [thermal])
+[2023-09-26 10:43:23.966] [info] Loading thermal.emission_coefficient (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: pu, agents: 2 [thermal])
+[2023-09-26 10:43:23.966] [info] Loading thermal.ramp_up (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW/min, agents: 2 [thermal])
+[2023-09-26 10:43:23.967] [info] Loading thermal.ramp_down (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: MW/min, agents: 2 [thermal])
+[2023-09-26 10:43:23.967] [info] Loading thermal.min_uptime (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: hour, agents: 2 [thermal])
+[2023-09-26 10:43:23.967] [info] Loading thermal.min_downtime (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: hour, agents: 2 [thermal])
+[2023-09-26 10:43:23.967] [info] Loading thermal.max_startups (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [thermal])
+[2023-09-26 10:43:23.968] [info] Loading thermal.max_shutdowns (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [thermal])
+[2023-09-26 10:43:23.968] [info] Loading thermal.shutdown_cost (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 2 [thermal])
+[2023-09-26 10:43:23.968] [info] Loading thermal.alternative_fuel (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 2 [thermal])
+[2023-09-26 10:43:23.968] [info] Loading thermal.spinning_reserve (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: %, agents: 2 [thermal])
+[2023-09-26 10:43:23.968] [info] Loading thermal.max_reserve (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: MW, agents: 2 [thermal])
+[2023-09-26 10:43:23.969] [info] Loading thermal.bid_price (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 2 [thermal])
+[2023-09-26 10:43:23.969] [info] file sddppol.csv does not exist. Policy report will not be displayed.
+[2023-09-26 10:43:23.969] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.969] [info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.969] [info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] GREATER_OR_EQUAL_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] GREATER_OR_EQUAL_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.970] [info] GREATER_OR_EQUAL_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.970] [info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:23.970] [info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.970] [info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.970] [info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.970] [info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.970] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:23.970] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.970] [info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:23.970] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:23.971] [info] SELECT_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:23.971] [info] ABS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:23.971] [info] ABS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:23.971] [info] AGGREGATE_ALL_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:23.971] [info] AGGREGATE_ALL_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:23.971] [info] AGGREGATE_STAGES: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:23.971] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:23.972] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:23.973] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.974] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:23.974] [info] Adding layers in "Breakdown of total operating costs" chart (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:23.976] [info] Converting sddptimes to binary
+[2023-09-26 10:43:23.982] [info] Loading sddptimes (stages: 1 [1:1] [linear] [1/2016], blocks: none, scenarios: 1, unit: sec, agents: 3 [generic])
+[2023-09-26 10:43:23.983] [info] Unit converted from [sec] to [s] with factor 1
+[2023-09-26 10:43:23.983] [info] Adding layers in "Execution times" chart (stages: 1 [1:1] [linear] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.985] [info] Converting extime to binary
+[2023-09-26 10:43:23.994] [info] Loading extime (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.994] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.994] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.994] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.994] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.994] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.995] [info] ABS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.995] [info] ABS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.995] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.996] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.996] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.996] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.996] [info] CONVERT: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.996] [info] Unit converted from [s] to [ms] with factor 1000.000000
+[2023-09-26 10:43:23.996] [info] CONVERT= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ms, agents: 1 [generic])
+[2023-09-26 10:43:23.996] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.996] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.996] [info] CONVERT: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.996] [info] Unit converted from [s] to [ms] with factor 1000.000000
+[2023-09-26 10:43:23.996] [info] CONVERT= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ms, agents: 1 [generic])
+[2023-09-26 10:43:23.996] [info] Adding layers in "Dispersion of execution times per scenario" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ms, agents: 1 [generic])
+[2023-09-26 10:43:23.996] [info] Adding layers in "Dispersion of execution times per scenario" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ms, agents: 1 [generic])
+[2023-09-26 10:43:23.997] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 3 [generic])
+[2023-09-26 10:43:23.997] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.997] [info] CONVERT: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: s, agents: 1 [generic])
+[2023-09-26 10:43:23.997] [info] Unit converted from [s] to [ms] with factor 1000.000000
+[2023-09-26 10:43:23.997] [info] CONVERT= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ms, agents: 1 [generic])
+[2023-09-26 10:43:23.997] [info] Adding layers in "Dispersion of execution times per scenario" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: ms, agents: 1 [generic])
+[2023-09-26 10:43:23.998] [info] Converting sddppenp to binary
+[2023-09-26 10:43:23.999] [info] Loading sddppenp (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.999] [info] CONVERT: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.999] [info] Unit converted from [] to [%] with factor 100.000000
+[2023-09-26 10:43:23.999] [info] CONVERT= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [generic])
+[2023-09-26 10:43:23.999] [info] Adding layers in "Share of violation penalties and deficit in the cost of each stage/scenario (%)" chart (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:23.999] [info] Loading D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp_viol.out
+[2023-09-26 10:43:24.000] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:24.000] [info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:24.000] [info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] GREATER_OR_EQUAL_THAN: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] GREATER_OR_EQUAL_THAN: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.000] [info] GREATER_OR_EQUAL_THAN= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:24.000] [info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:24.000] [info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] IFELSE: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] IFELSE: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.000] [info] IFELSE= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.000] [info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.000] [info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.000] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.000] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.000] [info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.000] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:24.001] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.001] [info] sddp_dashboard_cost_tot selected, saving file
+[2023-09-26 10:43:24.001] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:24.002] [info] Saving sddp_dashboard_cost_tot (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.002] [info] Converting to csv
+[2023-09-26 10:43:24.004] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.004] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.005] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.005] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.005] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.005] [info] CONCATENATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.005] [info] CONCATENATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[2023-09-26 10:43:24.005] [info] ABS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[2023-09-26 10:43:24.005] [info] ABS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[2023-09-26 10:43:24.005] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[2023-09-26 10:43:24.005] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.005] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.005] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.005] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:24.005] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.006] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[2023-09-26 10:43:24.006] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.006] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[2023-09-26 10:43:24.006] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.006] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:24.006] [info] Adding layers in "Dispersion of operating costs per stage" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.007] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:24.007] [info] Adding layers in "Dispersion of operating costs per stage" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.008] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 3 [generic])
+[2023-09-26 10:43:24.008] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.008] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:24.009] [info] Adding layers in "Dispersion of operating costs per stage" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.009] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.009] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.009] [info] NOT_EQUAL_TO: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.009] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.009] [info] NOT_EQUAL_TO= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:24.009] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.009] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 53 [generic])
+[2023-09-26 10:43:24.009] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.009] [info] ABS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.009] [info] ABS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.009] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.009] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.009] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.009] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.010] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:24.010] [info] Saving expression into list (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.011] [info] Unit converted from [(k$)/(1)] to [k$] with factor 1
+[2023-09-26 10:43:24.011] [info] Adding layers in "Average operating costs per stage" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.012] [info] Converting cmgdem to binary
+[2023-09-26 10:43:24.013] [info] Loading cmgdem (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.013] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.014] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.014] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.014] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.014] [info] AGGREGATE_SCENARIOS: (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.014] [info] AGGREGATE_SCENARIOS= (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.015] [info] Adding layers in "Annual marginal cost by system" chart (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.015] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.016] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.016] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.016] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.017] [info] Adding layers in "Average marginal costs per stage per system" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: $/MWh, agents: 1 [system])
+[2023-09-26 10:43:24.018] [info] Converting gerter to binary
+[2023-09-26 10:43:24.019] [info] Loading gerter (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.019] [error] gerhid not found
+[2023-09-26 10:43:24.020] [error] gergnd not found
+[2023-09-26 10:43:24.020] [error] gerbat not found
+[2023-09-26 10:43:24.020] [warn] CONVERT: null at ./sddp-dashlib.lua:1071
+[2023-09-26 10:43:24.021] [error] powinj not found
+[2023-09-26 10:43:24.021] [info] Loading defcit (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1127
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1127
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1127
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1128
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1128
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1128
+[2023-09-26 10:43:24.021] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.021] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.021] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.021] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.021] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.021] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1130
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1130
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1130
+[2023-09-26 10:43:24.021] [warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1133
+[2023-09-26 10:43:24.021] [warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1134
+[2023-09-26 10:43:24.021] [warn] AND: null at ./sddp-dashlib.lua:1133
+[2023-09-26 10:43:24.021] [warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1135
+[2023-09-26 10:43:24.021] [warn] AND: null at ./sddp-dashlib.lua:1134
+[2023-09-26 10:43:24.021] [warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:1133
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1137
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1137
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1137
+[2023-09-26 10:43:24.021] [warn] EQUAL_TO: null at ./sddp-dashlib.lua:1138
+[2023-09-26 10:43:24.021] [warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:1138
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1138
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1138
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1138
+[2023-09-26 10:43:24.021] [warn] EQUAL_TO: null at ./sddp-dashlib.lua:1139
+[2023-09-26 10:43:24.021] [warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:1139
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1139
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1139
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1139
+[2023-09-26 10:43:24.021] [warn] EQUAL_TO: null at ./sddp-dashlib.lua:1140
+[2023-09-26 10:43:24.021] [warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:1140
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1140
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1140
+[2023-09-26 10:43:24.021] [warn] AGGREGATE_ALL_AGENTS: null at ./sddp-dashlib.lua:1140
+[2023-09-26 10:43:24.021] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.021] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.021] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.021] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.021] [info] AGGREGATE_ALL_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.022] [info] AGGREGATE_ALL_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.023] [info] Adding layers in "Total generation" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.024] [info] Adding layers in "Total generation" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.024] [info] Loading cmgdem (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: $/MWh, agents: 1 [generic])
+[2023-09-26 10:43:24.024] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1269
+[2023-09-26 10:43:24.024] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1269
+[2023-09-26 10:43:24.024] [warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1269
+[2023-09-26 10:43:24.024] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1269
+[2023-09-26 10:43:24.024] [warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1269
+[2023-09-26 10:43:24.024] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1270
+[2023-09-26 10:43:24.024] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1270
+[2023-09-26 10:43:24.024] [warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1270
+[2023-09-26 10:43:24.024] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1270
+[2023-09-26 10:43:24.024] [warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1270
+[2023-09-26 10:43:24.024] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.024] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.024] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.024] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.024] [info] AGGREGATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.025] [info] AGGREGATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.025] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.025] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.025] [info] RENAME_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.025] [info] RENAME_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1272
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1272
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1272
+[2023-09-26 10:43:24.025] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1272
+[2023-09-26 10:43:24.025] [warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1272
+[2023-09-26 10:43:24.025] [warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1275
+[2023-09-26 10:43:24.025] [warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1276
+[2023-09-26 10:43:24.025] [warn] AND: null at ./sddp-dashlib.lua:1275
+[2023-09-26 10:43:24.025] [warn] NOT_EQUAL_TO: null at ./sddp-dashlib.lua:1277
+[2023-09-26 10:43:24.025] [warn] AND: null at ./sddp-dashlib.lua:1276
+[2023-09-26 10:43:24.025] [warn] IFELSE: null at ./sddp-dashlib.lua:1275
+[2023-09-26 10:43:24.025] [warn] EQUAL_TO: null at ./sddp-dashlib.lua:1280
+[2023-09-26 10:43:24.025] [warn] IFELSE: null at ./sddp-dashlib.lua:1280
+[2023-09-26 10:43:24.025] [warn] EQUAL_TO: null at ./sddp-dashlib.lua:1283
+[2023-09-26 10:43:24.025] [warn] IFELSE: null at ./sddp-dashlib.lua:1283
+[2023-09-26 10:43:24.025] [warn] EQUAL_TO: null at ./sddp-dashlib.lua:1286
+[2023-09-26 10:43:24.025] [warn] IFELSE: null at ./sddp-dashlib.lua:1286
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1290
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1290
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1290
+[2023-09-26 10:43:24.025] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1290
+[2023-09-26 10:43:24.025] [warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1290
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1291
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1291
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1291
+[2023-09-26 10:43:24.025] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1291
+[2023-09-26 10:43:24.025] [warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1291
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1292
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1292
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1292
+[2023-09-26 10:43:24.025] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1292
+[2023-09-26 10:43:24.025] [warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1292
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_BLOCKS: null at ./sddp-dashlib.lua:1293
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_SCENARIOS: null at ./sddp-dashlib.lua:1293
+[2023-09-26 10:43:24.025] [warn] AGGREGATE_AGENTS: null at ./sddp-dashlib.lua:1293
+[2023-09-26 10:43:24.025] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:1293
+[2023-09-26 10:43:24.025] [warn] RENAME_AGENT: null at ./sddp-dashlib.lua:1293
+[2023-09-26 10:43:24.025] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: 24, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.025] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.025] [info] AGGREGATE_SCENARIOS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.025] [info] AGGREGATE_SCENARIOS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.025] [info] AGGREGATE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 2 [thermal])
+[2023-09-26 10:43:24.025] [info] AGGREGATE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.025] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [system])
+[2023-09-26 10:43:24.025] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.025] [info] RENAME_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.025] [info] RENAME_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.026] [info] Adding layers in "Total Thermal" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.027] [info] Adding layers in "Total Deficit" chart (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: GWh, agents: 1 [generic])
+[2023-09-26 10:43:24.028] [info] Converting sddprisk to binary
+[2023-09-26 10:43:24.029] [info] Loading sddprisk (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+[2023-09-26 10:43:24.030] [info] Adding layers in "Deficit risk by system" chart (stages: 1 [1:1] [year] [1/2016], blocks: none, scenarios: 1, unit: %, agents: 1 [system])
+[2023-09-26 10:43:24.030] [error] sddp_dashboard_input_enaflu not found
+[2023-09-26 10:43:24.030] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:403
+[2023-09-26 10:43:24.030] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:403
+[2023-09-26 10:43:24.030] [warn] SELECT_AGENT: null at ./sddp-dashlib.lua:404
+[2023-09-26 10:43:24.031] [warn] EQUAL_TO: null at ./sddp-dashlib.lua:346
+[2023-09-26 10:43:24.031] [warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:346
+[2023-09-26 10:43:24.031] [warn] EQUAL_TO: null at ./sddp-dashlib.lua:347
+[2023-09-26 10:43:24.031] [warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:347
+[2023-09-26 10:43:24.031] [warn] EQUAL_TO: null at ./sddp-dashlib.lua:348
+[2023-09-26 10:43:24.031] [warn] SELECT_AGENTS: null at ./sddp-dashlib.lua:348
+[2023-09-26 10:43:24.031] [info] Saving SDDP.html
+[2023-09-26 10:43:24.032] [info] Running D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp.lua
+[2023-09-26 10:43:24.032] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:24.032] [info] REMOVE_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:24.033] [info] REMOVE_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.033] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.033] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.033] [info] Loading objcop (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:24.033] [info] SELECT_AGENTS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 55 [generic])
+[2023-09-26 10:43:24.033] [info] SELECT_AGENTS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] AGGREGATE_BLOCKS: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] AGGREGATE_BLOCKS= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 53 [generic])
+[2023-09-26 10:43:24.033] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.033] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.033] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.033] [info] ADDITION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] ADDITION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] ADDITION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] SUBTRACTION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] SUBTRACTION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] SUBTRACTION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] DIVISION: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] POW: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] POW= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: k$, agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] DIVISION: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [study])
+[2023-09-26 10:43:24.033] [info] DIVISION= (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] AGGREGATE_STAGES: (stages: 12 [1:12] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] AGGREGATE_STAGES= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.033] [info] CONCATENATE_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 53 [generic])
+[2023-09-26 10:43:24.033] [info] CONCATENATE_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.034] [info] CONCATENATE_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 54 [generic])
+[2023-09-26 10:43:24.034] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 54 [generic])
+[2023-09-26 10:43:24.034] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.034] [info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 54 [generic])
+[2023-09-26 10:43:24.034] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 54 [generic])
+[2023-09-26 10:43:24.034] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 54 [generic])
+[2023-09-26 10:43:24.034] [info] SELECT_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.034] [info] AGGREGATE_SCENARIOS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.034] [info] AGGREGATE_SCENARIOS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.034] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.034] [info] NOT_EQUAL_TO: (stages: 1 [1:1] [any] [-1/-1], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.034] [info] NOT_EQUAL_TO= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.034] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.034] [info] SELECT_AGENTS: (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: , agents: 1 [generic])
+[2023-09-26 10:43:24.035] [info] SELECT_AGENTS= (stages: 1 [1:1] [month] [1/2016], blocks: none, scenarios: 1, unit: (k$)/(1), agents: 1 [generic])
+[2023-09-26 10:43:24.035] [error] sol: runtime error: The remove_zeros save option is deprecated, you should use the exp:remove_zeros() method
+stack traceback:
+	[C]: in method 'save'
+	...ric_interpolation_constraints\without_constrain\sddp.lua:3: in main chunk
+[2023-09-26 10:43:24.035] [info] Deleting temporary files and folders
+[2023-09-26 10:43:24.035] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp_dashboard_cost_avg.bin)
+[2023-09-26 10:43:24.035] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp_dashboard_cost_avg.hdr)
+[2023-09-26 10:43:24.035] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp_dashboard_cost_disp.bin)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp_dashboard_cost_disp.hdr)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp_dashboard_cost_tot.bin)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddp_dashboard_cost_tot.hdr)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddprisk.bin)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\sddprisk.hdr)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\cmgdem.bin)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\cmgdem.hdr)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\defbus.bin)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\defbus.hdr)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\defcit.bin)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\defcit.hdr)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\demandel.bin)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\demandel.hdr)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\enaflu.bin)
+[2023-09-26 10:43:24.036] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\enaflu.hdr)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\excbus.bin)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\excbus.hdr)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\excsis.bin)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\excsis.hdr)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\extime.bin)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\extime.hdr)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\gerter.bin)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\gerter.hdr)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\objcop.bin)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\objcop.hdr)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\sddppenp.bin)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\sddppenp.hdr)
+[2023-09-26 10:43:24.037] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\sddprisk.bin)
+[2023-09-26 10:43:24.038] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\sddprisk.hdr)
+[2023-09-26 10:43:24.038] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\sddptimes.bin)
+[2023-09-26 10:43:24.038] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\sddptimes.hdr)
+[2023-09-26 10:43:24.038] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\vgmntt.bin)
+[2023-09-26 10:43:24.038] [info] Temporary file successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio\vgmntt.hdr)
+[2023-09-26 10:43:24.038] [info] Temporary folder successfully deleted (D:\SDDP_TUTORIAL\generic_interpolation_constraints\without_constrain\tmp-psrio)
+[2023-09-26 10:43:24.038] [info] Closing hourly scenarios
+[2023-09-26 10:43:24.038] [error] PSRIO v0.25.0 did not finish successfully

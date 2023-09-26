@@ -1,0 +1,24 @@
+INIGRAPH Load marginal cost
+HORIZON,0
+Etapa inicial           :    1
+Ano inicial             : 2016
+Etapa final             :    1
+Ano final               : 2016
+# bloques a graficar    :   -1
+Suma bloques?           :   -1
+Suma etapas por ano?    :   -1
+Titulo eje-x            :     
+Titulo primario eje-y   :     
+Titulo secundario eje-y :
+# Series seleccionadas  :   -1
+grafica series selecc.? :   -1
+grafica promedio?       :   -1
+grafica desv. standard? :   -1
+grafica cuantil sup?    :    0
+grafica cuantil inf?    :    0
+CHARTTYPE -1
+CHARTNAME 1
+Nombre variable   1     :Load marginal cost
+# de agentes a graficar :00001
+nombre del agente       :S1
+ENDGRAPH

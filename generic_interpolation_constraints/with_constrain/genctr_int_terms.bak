@@ -1,0 +1,4 @@
+$version=1
+!CtrCode,Name,sys_id,var_name,unit,signal,penalty
+1,T1,s1,TGen,MW,=,100000000
+1,T2,s1,TGen,MW,=,100000000
